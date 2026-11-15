@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      .bold { font-weight: 800; }
+      .medium { font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Canvas Container Base -->
+  <rect x="0" y="0" width="900" height="320" rx="8" fill="#F4EFEA" stroke="#111111" stroke-width="2.5" />
+
+  <!-- ================= LEFT: CURRENTLY EXPLORING ================= -->
+  <g transform="translate(20, 20)">
+    <!-- Shadow -->
+    <rect x="5" y="5" width="418" height="278" rx="6" fill="#111111" />
+    <!-- Main Card -->
+    <rect x="0" y="0" width="418" height="278" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="2.5" />
+
+    <!-- Card Titlebar -->
+    <path d="M 0 6 C 0 2.686 2.686 0 6 0 L 412 0 C 415.314 0 418 2.686 418 6 L 418 36 L 0 36 Z" fill="#FFE600" stroke="#111111" stroke-width="2" />
+    <text x="14" y="24" class="mono bold" font-size="12" fill="#111111" letter-spacing="1">⚡ /CURRENTLY-EXPLORING</text>
+    <rect x="330" y="8" width="76" height="20" rx="3" fill="#111111" />
+    <text x="368" y="22" class="mono bold" font-size="9.5" fill="#FFE600" text-anchor="middle">ACTIVE LAB</text>
+
+    <!-- Exploration Items -->
+    <g transform="translate(16, 52)">
+      <!-- Item 1 -->
+      <g>
+        <rect x="0" y="0" width="78" height="20" rx="3" fill="#EBF3FF" stroke="#0047FF" stroke-width="1.2" />
+        <text x="39" y="14" class="mono bold" font-size="9" fill="#0047FF" text-anchor="middle">ALGORITHMS</text>
+        <text x="88" y="15" class="sans bold" font-size="12" fill="#111111">DSA in Java &amp; C++</text>
+        <text x="88" y="32" class="mono" font-size="10" fill="#666666">Trees, Graphs, Recursion &amp; Dynamic Programming</text>
+      </g>
+
+      <line x1="0" y1="42" x2="386" y2="42" stroke="#E5E0D8" stroke-width="1" />
+
+      <!-- Item 2 -->
+      <g transform="translate(0, 52)">
+        <rect x="0" y="0" width="78" height="20" rx="3" fill="#E8F9EE" stroke="#10B981" stroke-width="1.2" />
+        <text x="39" y="14" class="mono bold" font-size="9" fill="#065F46" text-anchor="middle">BACKEND</text>
+        <text x="88" y="15" class="sans bold" font-size="12" fill="#111111">Backend Architecture &amp; System Design</text>
+        <text x="88" y="32" class="mono" font-size="10" fill="#666666">API gateways, state management, caching &amp; telemetry</text>
+      </g>
+
+      <line x1="0" y1="94" x2="386" y2="94" stroke="#E5E0D8" stroke-width="1" />
+
+      <!-- Item 3 -->
+      <g transform="translate(0, 104)">
+        <rect x="0" y="0" width="78" height="20" rx="3" fill="#FFF0F5" stroke="#FF5E97" stroke-width="1.2" />
+        <text x="39" y="14" class="mono bold" font-size="9" fill="#C2185B" text-anchor="middle">AI SYSTEMS</text>
+        <text x="88" y="15" class="sans bold" font-size="12" fill="#111111">LLM Infra &amp; RAG Systems</text>
+        <text x="88" y="32" class="mono" font-size="10" fill="#666666">Vector retrieval, KV-cache dynamics &amp; latency profiling</text>
+      </g>
+
+      <line x1="0" y1="146" x2="386" y2="146" stroke="#E5E0D8" stroke-width="1" />
+
+      <!-- Item 4 -->
+      <g transform="translate(0, 156)">
+        <rect x="0" y="0" width="78" height="20" rx="3" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.2" />
+        <text x="39" y="14" class="mono bold" font-size="9" fill="#B45309" text-anchor="middle">DEEP LEARN</text>
+        <text x="88" y="15" class="sans bold" font-size="12" fill="#111111">Deep Learning &amp; Model Optimization</text>
+        <text x="88" y="32" class="mono" font-size="10" fill="#666666">PyTorch models, loss landscapes &amp; tabular regressors</text>
+      </g>
+
+      <!-- Bottom philosophy note -->
+      <g transform="translate(0, 198)">
+        <rect x="0" y="0" width="386" height="22" rx="3" fill="#FAF6EE" stroke="#D3CBBB" stroke-width="1" />
+        <text x="10" y="15" class="mono" font-size="9.5" fill="#444444">✦ Continuous journey: fundamentals first, then intelligence.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT: ENGINEERING LOGS ================= -->
+  <g transform="translate(460, 20)">
+    <!-- Shadow -->
+    <rect x="5" y="5" width="418" height="278" rx="6" fill="#111111" />
+    <!-- Main Card -->
+    <rect x="0" y="0" width="418" height="278" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="2.5" />
+
+    <!-- Card Titlebar -->
+    <path d="M 0 6 C 0 2.686 2.686 0 6 0 L 412 0 C 415.314 0 418 2.686 418 6 L 418 36 L 0 36 Z" fill="#111111" />
+    <text x="14" y="24" class="mono bold" font-size="12" fill="#FFE600" letter-spacing="1">&gt;_ /ENGINEERING-LOGS</text>
+    <rect x="306" y="8" width="98" height="20" rx="3" fill="#0047FF" />
+    <text x="355" y="22" class="mono bold" font-size="9.5" fill="#FFFFFF" text-anchor="middle">DSA TRACKER</text>
+
+    <!-- Main Metric Box: 128+ Problems Solved -->
+    <g transform="translate(16, 50)">
+      <rect x="3" y="3" width="386" height="74" rx="4" fill="#111111" />
+      <rect x="0" y="0" width="386" height="74" rx="4" fill="#FFE600" stroke="#111111" stroke-width="2" />
+      
+      <!-- Big Number -->
+      <text x="20" y="52" class="sans bold" font-size="46" fill="#111111" letter-spacing="-1">128+</text>
+      
+      <!-- Right Label in Stat Box -->
+      <g transform="translate(150, 16)">
+        <text x="0" y="14" class="sans bold" font-size="15" fill="#111111">LEETCODE PROBLEMS SOLVED</text>
+        <text x="0" y="32" class="mono bold" font-size="10.5" fill="#111111">Topic-Wise Practice in Java &amp; C++</text>
+        <text x="0" y="47" class="mono" font-size="9" fill="#333333">Consistent problem-solving &amp; complexity analysis</text>
+      </g>
+    </g>
+
+    <!-- Detailed Topic Matrix -->
+    <g transform="translate(16, 138)">
+      <text x="0" y="10" class="mono bold" font-size="10" fill="#111111" letter-spacing="1">LOGGED TOPIC MODULES:</text>
+      
+      <!-- Badges -->
+      <g transform="translate(0, 20)">
+        <!-- Tag 1 -->
+        <rect x="0" y="0" width="104" height="24" rx="3" fill="#FAF6EE" stroke="#111111" stroke-width="1.2" />
+        <text x="52" y="16" class="mono bold" font-size="9.5" fill="#111111" text-anchor="middle">Arrays &amp; Strings</text>
+
+        <!-- Tag 2 -->
+        <g transform="translate(112, 0)">
+          <rect x="0" y="0" width="112" height="24" rx="3" fill="#FAF6EE" stroke="#111111" stroke-width="1.2" />
+          <text x="56" y="16" class="mono bold" font-size="9.5" fill="#111111" text-anchor="middle">Trees &amp; BSTs</text>
+        </g>
+
+        <!-- Tag 3 -->
+        <g transform="translate(232, 0)">
+          <rect x="0" y="0" width="154" height="24" rx="3" fill="#FAF6EE" stroke="#111111" stroke-width="1.2" />
+          <text x="77" y="16" class="mono bold" font-size="9.5" fill="#111111" text-anchor="middle">Dynamic Programming</text>
+        </g>
+      </g>
+
+      <g transform="translate(0, 50)">
+        <!-- Tag 4 -->
+        <rect x="0" y="0" width="124" height="24" rx="3" fill="#FAF6EE" stroke="#111111" stroke-width="1.2" />
+        <text x="62" y="16" class="mono bold" font-size="9.5" fill="#111111" text-anchor="middle">Graphs &amp; Traversal</text>
+
+        <!-- Tag 5 -->
+        <g transform="translate(132, 0)">
+          <rect x="0" y="0" width="120" height="24" rx="3" fill="#FAF6EE" stroke="#111111" stroke-width="1.2" />
+          <text x="60" y="16" class="mono bold" font-size="9.5" fill="#111111" text-anchor="middle">Binary Search &amp; 2P</text>
+        </g>
+
+        <!-- Tag 6 -->
+        <g transform="translate(260, 0)">
+          <rect x="0" y="0" width="126" height="24" rx="3" fill="#FAF6EE" stroke="#111111" stroke-width="1.2" />
+          <text x="63" y="16" class="mono bold" font-size="9.5" fill="#111111" text-anchor="middle">Stacks &amp; Queues</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Repo Link Pill -->
+    <g transform="translate(16, 236)">
+      <rect x="2" y="2" width="386" height="28" rx="4" fill="#111111" />
+      <rect x="0" y="0" width="386" height="28" rx="4" fill="#0047FF" stroke="#111111" stroke-width="1.5" />
+      <text x="14" y="18" class="mono bold" font-size="10.5" fill="#FFFFFF">&gt;&gt; REPO: github.com/jaspreetxkaur/DSA-Problem-Solving</text>
+      <circle cx="368" cy="14" r="4" fill="#FFE600" />
+    </g>
+  </g>
+</svg>

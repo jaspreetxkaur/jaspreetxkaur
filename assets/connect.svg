@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      .bold { font-weight: 900; }
+      .medium { font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Main Shadow -->
+  <rect x="6" y="6" width="888" height="138" rx="8" fill="#111111" />
+  <!-- Main Card -->
+  <rect x="0" y="0" width="888" height="138" rx="8" fill="#FAF6EE" stroke="#111111" stroke-width="3" />
+
+  <!-- Headline -->
+  <g transform="translate(28, 38)">
+    <text x="0" y="0" class="mono bold" font-size="11" fill="#0047FF" letter-spacing="2">&gt;_ END_TRANSMISSION // REACH OUT</text>
+    <text x="0" y="32" class="sans bold" font-size="28" fill="#111111" letter-spacing="-1">LET'S BUILD SOMETHING INTELLIGENT.</text>
+    <text x="0" y="56" class="mono medium" font-size="11" fill="#555555">Always open to discussions on AI/ML systems, backend engineering, and collaborative projects.</text>
+  </g>
+
+  <!-- Connect Channels -->
+  <g transform="translate(560, 26)">
+    <!-- GitHub Button -->
+    <g transform="translate(0, 0)">
+      <rect x="3" y="3" width="300" height="28" rx="4" fill="#111111" />
+      <rect x="0" y="0" width="300" height="28" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+      <text x="12" y="18" class="mono bold" font-size="10" fill="#0047FF">GITHUB</text>
+      <text x="80" y="18" class="mono medium" font-size="10.5" fill="#111111">: github.com/jaspreetxkaur</text>
+    </g>
+
+    <!-- LinkedIn Button -->
+    <g transform="translate(0, 34)">
+      <rect x="3" y="3" width="300" height="28" rx="4" fill="#111111" />
+      <rect x="0" y="0" width="300" height="28" rx="4" fill="#FFE600" stroke="#111111" stroke-width="1.8" />
+      <text x="12" y="18" class="mono bold" font-size="10" fill="#111111">LINKEDIN</text>
+      <text x="80" y="18" class="mono medium" font-size="10" fill="#111111">: in/jaspreet-kaur-aiml-engineer</text>
+    </g>
+
+    <!-- Email Button -->
+    <g transform="translate(0, 68)">
+      <rect x="3" y="3" width="300" height="28" rx="4" fill="#111111" />
+      <rect x="0" y="0" width="300" height="28" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+      <text x="12" y="18" class="mono bold" font-size="10" fill="#E11D48">EMAIL</text>
+      <text x="80" y="18" class="mono medium" font-size="9.5" fill="#111111">: jaspreet2775.beai24@chitkara.edu.in</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      .bold { font-weight: 800; }
+      .medium { font-weight: 600; }
+      .tag {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 11px;
+        font-weight: 700;
+        fill: #111111;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect x="0" y="0" width="900" height="370" rx="8" fill="#F4EFEA" stroke="#111111" stroke-width="2.5" />
+
+  <!-- Top Section Title Bar -->
+  <g transform="translate(20, 16)">
+    <rect x="3" y="3" width="860" height="34" rx="4" fill="#111111" />
+    <rect x="0" y="0" width="860" height="34" rx="4" fill="#FFE600" stroke="#111111" stroke-width="2" />
+    <text x="16" y="22" class="mono bold" font-size="12" fill="#111111" letter-spacing="1.5">⚡ SYSTEM_ARCHITECTURE // TECH STACK MATRIX</text>
+    <text x="844" y="22" class="mono bold" font-size="11" fill="#111111" text-anchor="end" letter-spacing="1">[CORE_SKILLS: COMPILED]</text>
+  </g>
+
+  <!-- ================= ROW 1 ================= -->
+
+  <!-- CARD 1: LANGUAGES -->
+  <g transform="translate(20, 68)">
+    <rect x="4" y="4" width="273" height="135" rx="6" fill="#111111" />
+    <rect x="0" y="0" width="273" height="135" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="2" />
+    
+    <!-- Card Header -->
+    <path d="M 0 6 C 0 2.686 2.686 0 6 0 L 267 0 C 270.314 0 273 2.686 273 6 L 273 30 L 0 30 Z" fill="#111111" />
+    <text x="12" y="20" class="mono bold" font-size="11" fill="#FFE600" letter-spacing="1">01 // LANGUAGES</text>
+    <circle cx="258" cy="15" r="4" fill="#FFE600" />
+
+    <!-- Tags Row 1 -->
+    <g transform="translate(12, 42)">
+      <!-- Java -->
+      <rect x="0" y="0" width="54" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="27" y="16" class="tag" text-anchor="middle">Java</text>
+      <!-- Python -->
+      <g transform="translate(62, 0)">
+        <rect x="0" y="0" width="66" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="33" y="16" class="tag" text-anchor="middle">Python</text>
+      </g>
+      <!-- C++ -->
+      <g transform="translate(136, 0)">
+        <rect x="0" y="0" width="50" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="25" y="16" class="tag" text-anchor="middle">C++</text>
+      </g>
+      <!-- SQL -->
+      <g transform="translate(194, 0)">
+        <rect x="0" y="0" width="52" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="26" y="16" class="tag" text-anchor="middle">SQL</text>
+      </g>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(12, 74)">
+      <!-- JavaScript -->
+      <rect x="0" y="0" width="94" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="47" y="16" class="tag" text-anchor="middle">JavaScript</text>
+      <!-- Focus Tag -->
+      <g transform="translate(102, 0)">
+        <rect x="0" y="0" width="144" height="24" rx="4" fill="#EBF3FF" stroke="#0047FF" stroke-width="1.5" />
+        <text x="72" y="16" class="tag" fill="#0047FF" text-anchor="middle">OOP · DSA Foundations</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 2: FRONTEND -->
+  <g transform="translate(313, 68)">
+    <rect x="4" y="4" width="273" height="135" rx="6" fill="#111111" />
+    <rect x="0" y="0" width="273" height="135" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="2" />
+    
+    <!-- Card Header -->
+    <path d="M 0 6 C 0 2.686 2.686 0 6 0 L 267 0 C 270.314 0 273 2.686 273 6 L 273 30 L 0 30 Z" fill="#0047FF" />
+    <text x="12" y="20" class="mono bold" font-size="11" fill="#FFFFFF" letter-spacing="1">02 // FRONTEND</text>
+    <circle cx="258" cy="15" r="4" fill="#FFFFFF" />
+
+    <!-- Tags Row 1 -->
+    <g transform="translate(12, 42)">
+      <!-- HTML -->
+      <rect x="0" y="0" width="54" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="27" y="16" class="tag" text-anchor="middle">HTML</text>
+      <!-- CSS -->
+      <g transform="translate(62, 0)">
+        <rect x="0" y="0" width="50" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="25" y="16" class="tag" text-anchor="middle">CSS</text>
+      </g>
+      <!-- JavaScript -->
+      <g transform="translate(120, 0)">
+        <rect x="0" y="0" width="94" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="47" y="16" class="tag" text-anchor="middle">JavaScript</text>
+      </g>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(12, 74)">
+      <!-- React -->
+      <rect x="0" y="0" width="62" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="31" y="16" class="tag" text-anchor="middle">React</text>
+      <!-- Component Architecture -->
+      <g transform="translate(70, 0)">
+        <rect x="0" y="0" width="176" height="24" rx="4" fill="#E8F9EE" stroke="#10B981" stroke-width="1.5" />
+        <text x="88" y="16" class="tag" fill="#065F46" text-anchor="middle">Component Architecture</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 3: BACKEND -->
+  <g transform="translate(606, 68)">
+    <rect x="4" y="4" width="273" height="135" rx="6" fill="#111111" />
+    <rect x="0" y="0" width="273" height="135" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="2" />
+    
+    <!-- Card Header -->
+    <path d="M 0 6 C 0 2.686 2.686 0 6 0 L 267 0 C 270.314 0 273 2.686 273 6 L 273 30 L 0 30 Z" fill="#111111" />
+    <text x="12" y="20" class="mono bold" font-size="11" fill="#FFAEC9" letter-spacing="1">03 // BACKEND</text>
+    <circle cx="258" cy="15" r="4" fill="#FFAEC9" />
+
+    <!-- Tags Row 1 -->
+    <g transform="translate(12, 42)">
+      <!-- Node.js -->
+      <rect x="0" y="0" width="68" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="34" y="16" class="tag" text-anchor="middle">Node.js</text>
+      <!-- Express.js -->
+      <g transform="translate(76, 0)">
+        <rect x="0" y="0" width="86" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="43" y="16" class="tag" text-anchor="middle">Express.js</text>
+      </g>
+      <!-- FastAPI -->
+      <g transform="translate(170, 0)">
+        <rect x="0" y="0" width="76" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="38" y="16" class="tag" text-anchor="middle">FastAPI</text>
+      </g>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(12, 74)">
+      <!-- Django -->
+      <rect x="0" y="0" width="66" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="33" y="16" class="tag" text-anchor="middle">Django</text>
+      <!-- REST APIs -->
+      <g transform="translate(74, 0)">
+        <rect x="0" y="0" width="88" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="44" y="16" class="tag" text-anchor="middle">REST APIs</text>
+      </g>
+      <!-- Routing/Auth -->
+      <g transform="translate(170, 0)">
+        <rect x="0" y="0" width="76" height="24" rx="4" fill="#FFF0F5" stroke="#FF5E97" stroke-width="1.5" />
+        <text x="38" y="16" class="tag" fill="#C2185B" text-anchor="middle">Auth/RBAC</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= ROW 2 ================= -->
+
+  <!-- CARD 4: DATABASES -->
+  <g transform="translate(20, 218)">
+    <rect x="4" y="4" width="273" height="135" rx="6" fill="#111111" />
+    <rect x="0" y="0" width="273" height="135" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="2" />
+    
+    <!-- Card Header -->
+    <path d="M 0 6 C 0 2.686 2.686 0 6 0 L 267 0 C 270.314 0 273 2.686 273 6 L 273 30 L 0 30 Z" fill="#111111" />
+    <text x="12" y="20" class="mono bold" font-size="11" fill="#85E8A3" letter-spacing="1">04 // DATABASES</text>
+    <circle cx="258" cy="15" r="4" fill="#85E8A3" />
+
+    <!-- Tags Row 1 -->
+    <g transform="translate(12, 42)">
+      <!-- MongoDB -->
+      <rect x="0" y="0" width="78" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="39" y="16" class="tag" text-anchor="middle">MongoDB</text>
+      <!-- Supabase -->
+      <g transform="translate(86, 0)">
+        <rect x="0" y="0" width="78" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="39" y="16" class="tag" text-anchor="middle">Supabase</text>
+      </g>
+      <!-- SQLite -->
+      <g transform="translate(172, 0)">
+        <rect x="0" y="0" width="68" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="34" y="16" class="tag" text-anchor="middle">SQLite</text>
+      </g>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(12, 74)">
+      <!-- SQL -->
+      <rect x="0" y="0" width="56" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="28" y="16" class="tag" text-anchor="middle">SQL</text>
+      <!-- Data Modeling -->
+      <g transform="translate(64, 0)">
+        <rect x="0" y="0" width="180" height="24" rx="4" fill="#E8F9EE" stroke="#10B981" stroke-width="1.5" />
+        <text x="90" y="16" class="tag" fill="#065F46" text-anchor="middle">Schema Design · Indexing</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 5: AI & ML -->
+  <g transform="translate(313, 218)">
+    <rect x="4" y="4" width="273" height="135" rx="6" fill="#111111" />
+    <rect x="0" y="0" width="273" height="135" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="2" />
+    
+    <!-- Card Header -->
+    <path d="M 0 6 C 0 2.686 2.686 0 6 0 L 267 0 C 270.314 0 273 2.686 273 6 L 273 30 L 0 30 Z" fill="#FFE600" stroke="#111111" stroke-width="0" />
+    <line x1="0" y1="30" x2="273" y2="30" stroke="#111111" stroke-width="2" />
+    <text x="12" y="20" class="mono bold" font-size="11" fill="#111111" letter-spacing="1">05 // AI &amp; MACHINE LEARNING</text>
+    <circle cx="258" cy="15" r="4" fill="#111111" />
+
+    <!-- Tags Row 1 -->
+    <g transform="translate(12, 42)">
+      <!-- Machine Learning -->
+      <rect x="0" y="0" width="128" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="64" y="16" class="tag" text-anchor="middle">Machine Learning</text>
+      <!-- DNN -->
+      <g transform="translate(136, 0)">
+        <rect x="0" y="0" width="110" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="55" y="16" class="tag" text-anchor="middle">Neural Networks</text>
+      </g>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(12, 74)">
+      <!-- Scikit-learn -->
+      <rect x="0" y="0" width="92" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="46" y="16" class="tag" text-anchor="middle">Scikit-learn</text>
+      <!-- Pandas -->
+      <g transform="translate(100, 0)">
+        <rect x="0" y="0" width="66" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="33" y="16" class="tag" text-anchor="middle">Pandas</text>
+      </g>
+      <!-- NumPy -->
+      <g transform="translate(174, 0)">
+        <rect x="0" y="0" width="72" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="36" y="16" class="tag" text-anchor="middle">NumPy</text>
+      </g>
+    </g>
+
+    <!-- Tags Row 3 -->
+    <g transform="translate(12, 104)">
+      <!-- NLP -->
+      <rect x="0" y="0" width="46" height="22" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="23" y="15" class="tag" text-anchor="middle">NLP</text>
+      <!-- RAG -->
+      <g transform="translate(52, 0)">
+        <rect x="0" y="0" width="50" height="22" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="25" y="15" class="tag" text-anchor="middle">RAG</text>
+      </g>
+      <!-- LLM Integration -->
+      <g transform="translate(108, 0)">
+        <rect x="0" y="0" width="138" height="22" rx="4" fill="#EBF3FF" stroke="#0047FF" stroke-width="1.5" />
+        <text x="69" y="15" class="tag" fill="#0047FF" text-anchor="middle">LLM API Integration</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 6: TOOLS & CLOUD -->
+  <g transform="translate(606, 218)">
+    <rect x="4" y="4" width="273" height="135" rx="6" fill="#111111" />
+    <rect x="0" y="0" width="273" height="135" rx="6" fill="#FFFFFF" stroke="#111111" stroke-width="2" />
+    
+    <!-- Card Header -->
+    <path d="M 0 6 C 0 2.686 2.686 0 6 0 L 267 0 C 270.314 0 273 2.686 273 6 L 273 30 L 0 30 Z" fill="#111111" />
+    <text x="12" y="20" class="mono bold" font-size="11" fill="#00E5FF" letter-spacing="1">06 // TOOLS &amp; CLOUD</text>
+    <circle cx="258" cy="15" r="4" fill="#00E5FF" />
+
+    <!-- Tags Row 1: Git, GitHub, Postman -->
+    <g transform="translate(12, 42)">
+      <!-- Git -->
+      <rect x="0" y="0" width="46" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="23" y="16" class="tag" text-anchor="middle">Git</text>
+      <!-- GitHub -->
+      <g transform="translate(54, 0)">
+        <rect x="0" y="0" width="70" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="35" y="16" class="tag" text-anchor="middle">GitHub</text>
+      </g>
+      <!-- Postman -->
+      <g transform="translate(132, 0)">
+        <rect x="0" y="0" width="78" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="39" y="16" class="tag" text-anchor="middle">Postman</text>
+      </g>
+    </g>
+
+    <!-- Tags Row 2: VS Code, Microsoft Azure -->
+    <g transform="translate(12, 74)">
+      <!-- VS Code (FIXED: completely spelled out) -->
+      <rect x="0" y="0" width="74" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+      <text x="37" y="16" class="tag" text-anchor="middle">VS Code</text>
+      <!-- Microsoft Azure -->
+      <g transform="translate(82, 0)">
+        <rect x="0" y="0" width="130" height="24" rx="4" fill="#FAF6EE" stroke="#111111" stroke-width="1.5" />
+        <text x="65" y="16" class="tag" text-anchor="middle">Microsoft Azure</text>
+      </g>
+    </g>
+
+    <!-- Tags Row 3: AWS Fundamentals -->
+    <g transform="translate(12, 104)">
+      <rect x="0" y="0" width="150" height="22" rx="4" fill="#EBF3FF" stroke="#0047FF" stroke-width="1.5" />
+      <text x="75" y="15" class="tag" fill="#0047FF" text-anchor="middle">AWS Fundamentals</text>
+    </g>
+  </g>
+</svg>
