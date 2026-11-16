@@ -1,7 +1,14 @@
 <div align="center">
 
-<!-- LOFI PIXEL ROOM BANNER -->
-<img src="./assets/pixel-room.svg" alt="Jaspreet Kaur — Pixel Studio Room" width="100%" />
+<!-- ANIMATED LOFI PIXEL ROOM (MOVING CAT, FLICKERING LIGHT, SCROLLING CODE) -->
+<img src="./assets/pixel-room.gif" alt="Jaspreet Kaur — Animated Pixel Room" width="100%" />
+
+<br/><br/>
+
+<!-- ANIMATED TYPING HEADER -->
+<a href="https://github.com/jaspreetxkaur">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=39D353&background=161B2200&center=true&vCenter=true&width=720&lines=FULL+STACK+DEVELOPER;EXPLORING+AI+%26+ML+SYSTEMS;BUILDING+UNILLM+%26+CAREERFORGE-AI;ALWAYS+PUSHING+COMMITS+%E2%9A%A1" alt="Typing Banner" />
+</a>
 
 <p align="center">
   <sub>The window shows the weather in Rajpura ,Punjab right now. The monitor scrolls my latest commits; the shelf holds a book for each language I write.</sub>
@@ -14,7 +21,7 @@
 
 <br/><br/>
 
-<!-- PIXEL STATS BAR -->
+<!-- STATS BAR -->
 <img src="./assets/pixel-stats.svg" alt="Engineering Stats" width="100%" />
 
 </div>
@@ -23,7 +30,27 @@
 
 ---
 
-### `> PROJECTS`
+### `> ACTIVITY & DAILY STREAK`
+
+<div align="center">
+
+<!-- LIVE GITHUB STREAK STATS -->
+<a href="https://github.com/jaspreetxkaur">
+  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=dark&background=161B22&stroke=30363D&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=F0F6FC&currStreakLabel=39D353&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
+</a>
+
+<br/><br/>
+
+<!-- RETRO CONTRIBUTION HEATMAP -->
+<img src="./assets/pixel-activity.svg" alt="Contribution Activity &amp; Heatmap" width="100%" />
+
+</div>
+
+<br/>
+
+---
+
+### `> FEATURED REPOSITORIES`
 
 <div align="center">
   <img src="./assets/pixel-projects.svg" alt="Featured Projects Grid" width="100%" />
@@ -32,30 +59,20 @@
 <br/>
 
 <details open>
-<summary><b>[VIEW REPOSITORY DIRECTORY &amp; TECHNICAL HIGHLIGHTS]</b></summary>
+<summary><b>[VIEW ALL 7 ACTIVE REPOSITORIES &amp; DEMOS]</b></summary>
 <br/>
 
-| Repository | Tech Stack | Status / Highlight | Link |
+| Repository | Primary Stack | Architecture &amp; Highlights | Action |
 | :--- | :--- | :--- | :---: |
-| **UniLLM** | `Node.js` · `Express` · `MongoDB` · `Socket.IO` · `JWT` | Multi-tenant AI gateway routing requests across OpenAI, Gemini &amp; Anthropic with streaming &amp; RBAC | [📦 Code](https://github.com/jaspreetxkaur/UniLLM) |
-| **CareerForge-AI** | `Python` · `Azure OpenAI` · `Azure AI Speech` · `RAG` | AI-powered placement companion featuring resume scoring, placement RAG &amp; voice mock interviews | [📦 Code](https://github.com/jaspreetxkaur/CareerForge-AI) · [🚀 Demo](https://career-forge-ai-navy.vercel.app/) |
-| **BrimLine — KV-Cache** | `Python` · `Deep Learning` · `PyTorch` | Forecasting KV-cache memory pressure and latency SLO violations in LLM inference serving | [📦 Code](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast) `[In Progress]` |
-| **AI Demand Forecasting** | `Python` · `XGBoost` · `Random Forest` · `Pandas` · `Scikit-learn` | Time-series ML system predicting retail product demand curves and stockout/overstocking risks | [📦 Code](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model) |
-| **DSA-Problem-Solving** | `Java` · `C++` · `Algorithms` | 128+ LeetCode problems solved with focus on Trees, Graphs, Recursion &amp; Dynamic Programming | [📦 Code](https://github.com/jaspreetxkaur/DSA-Problem-Solving) |
-| **Fake News Detector** | `Python` · `Scikit-learn` · `NLP` · `NLTK` | Natural language processing pipeline classifying and detecting deceptive online articles | [📦 Code](https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector) |
-| **Netflix Data Analysis** | `Python` · `Pandas` · `Matplotlib` · `Jupyter` | Exploratory data analysis uncovering global content trends, genre distributions &amp; release cycles | [📦 Code](https://github.com/jaspreetxkaur/Netflix-Data-Analysis) |
+| **UniLLM** | `Node.js` · `Express` · `MongoDB` · `Socket.IO` · `JWT` | Multi-tenant AI gateway routing requests dynamically across OpenAI, Gemini &amp; Anthropic with streaming &amp; RBAC | [📦 View Code](https://github.com/jaspreetxkaur/UniLLM) |
+| **CareerForge-AI** | `Python` · `Azure OpenAI` · `Azure AI Speech` · `RAG` | AI-powered placement companion featuring automated resume scoring, placement RAG &amp; voice mock interviews | [📦 Code](https://github.com/jaspreetxkaur/CareerForge-AI) · [🚀 Live Demo](https://career-forge-ai-navy.vercel.app/) |
+| **BrimLine — KV-Cache** | `Python` · `Deep Learning` · `PyTorch` | Forecasting KV-cache memory pressure and latency SLO violations in LLM inference serving | [📦 View Code](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast) `[In Progress]` |
+| **AI Demand Forecasting** | `Python` · `XGBoost` · `Random Forest` · `Pandas` · `Scikit-learn` | Time-series machine learning system forecasting retail demand curves and predicting inventory stockout risks | [📦 View Code](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model) |
+| **DSA-Problem-Solving** | `Java` · `C++` · `Algorithms` | Comprehensive algorithmic problem-solving repository with clean implementations in Trees, Graphs &amp; DP | [📦 View Code](https://github.com/jaspreetxkaur/DSA-Problem-Solving) |
+| **Fake News Detector** | `Python` · `Scikit-learn` · `NLP` · `NLTK` | Natural language processing pipeline classifying and detecting deceptive online articles | [📦 View Code](https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector) |
+| **Netflix Data Analysis** | `Python` · `Pandas` · `Matplotlib` · `Jupyter` | Exploratory data analysis uncovering global content trends, genre distributions &amp; release cycles | [📦 View Code](https://github.com/jaspreetxkaur/Netflix-Data-Analysis) |
 
 </details>
-
-<br/>
-
----
-
-### `> ACTIVITY`
-
-<div align="center">
-  <img src="./assets/pixel-activity.svg" alt="Contribution Activity &amp; Streaks" width="100%" />
-</div>
 
 <br/>
 
@@ -71,17 +88,11 @@
 
 ---
 
-### `> CERTIFICATIONS`
+### `> GITHUB ACHIEVEMENTS & MILESTONES`
 
 <div align="center">
-  <img src="./assets/certifications.svg" alt="Verified Certifications" width="100%" />
+  <img src="./assets/github-achievements.svg" alt="GitHub Achievements &amp; Milestones" width="100%" />
 </div>
-
-<br/>
-
-* **Oracle Cloud Infrastructure (OCI)** — *Data Science Certified Professional*
-* **Microsoft Certified** — *Azure Fundamentals (AZ-900)*
-* **Microsoft Certified** — *Azure Data Fundamentals (DP-900)*
 
 <br/>
 
