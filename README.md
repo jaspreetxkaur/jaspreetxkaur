@@ -34,9 +34,13 @@
 
 <div align="center">
 
-<!-- ANIMATED STREAK SNAKE IN SOFT DUSTY ROSE PINK (FULL MATRIX CRAWL) -->
+<!-- LIVE DYNAMIC GITHUB CONTRIBUTION SNAKE (AUTO-UPDATED BY GITHUB ACTIONS) -->
 <a href="https://github.com/jaspreetxkaur">
-  <img src="./assets/pixel-streak-snake.svg" alt="Streak Snake — Soft Dusty Rose" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jaspreetxkaur/jaspreetxkaur/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jaspreetxkaur/jaspreetxkaur/output/github-contribution-grid-snake.svg">
+    <img alt="Live GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/jaspreetxkaur/jaspreetxkaur/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </a>
 
 <br/><br/>
