@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" width="100%" height="100%">
+  <defs>
+    <style>
+      .header-green {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 11px;
+        font-weight: bold;
+        fill: #39d353;
+        letter-spacing: 1px;
+      }
+      .hud-title {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 10px;
+        font-weight: bold;
+        fill: #58a6ff;
+      }
+      .hud-text {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 10.5px;
+        fill: #c9d1d9;
+      }
+      .hud-highlight {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 10px;
+        font-weight: bold;
+        fill: #39d353;
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="880" height="180" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+
+  <g transform="translate(28, 22)">
+    <text x="0" y="0" class="header-green">&gt; SYSTEM TELEMETRY &amp; LAB RADAR</text>
+  </g>
+
+  <!-- Left HUD: Current Focus & Lab Radar -->
+  <g transform="translate(28, 42)">
+    <rect x="0" y="0" width="400" height="116" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <text x="16" y="22" class="hud-title">ACTIVE LAB QUESTS</text>
+    
+    <g transform="translate(16, 42)">
+      <circle cx="4" cy="4" r="3" fill="#39d353" />
+      <text x="14" y="8" class="hud-text">LLM Inference Gateway &amp; Virtual Keys (UniLLM)</text>
+
+      <circle cx="4" cy="24" r="3" fill="#a55eea" />
+      <text x="14" y="28" class="hud-text">KV-Cache Memory Saturation Forecaster (BrimLine)</text>
+
+      <circle cx="4" cy="44" r="3" fill="#00d2d3" />
+      <text x="14" y="48" class="hud-text">Placement Mock Interview Speech Pipeline (CareerForge)</text>
+
+      <circle cx="4" cy="64" r="3" fill="#f1c40f" />
+      <text x="14" y="68" class="hud-text">Distributed System Architecture &amp; Caching</text>
+    </g>
+  </g>
+
+  <!-- Right HUD: LeetCode & Problem Solving Breakdown -->
+  <g transform="translate(452, 42)">
+    <rect x="0" y="0" width="400" height="116" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <text x="16" y="22" class="hud-title">ALGORITHMIC RADAR (128+ SOLVED)</text>
+    
+    <g transform="translate(16, 42)">
+      <!-- Trees & Graphs -->
+      <text x="0" y="8" class="hud-text">Binary Trees &amp; BSTs</text>
+      <rect x="190" y="0" width="130" height="8" rx="2" fill="#21262d" />
+      <rect x="190" y="0" width="105" height="8" rx="2" fill="#39d353" />
+      <text x="330" y="8" class="hud-highlight">35 Solved</text>
+
+      <!-- DP -->
+      <text x="0" y="28" class="hud-text">Dynamic Programming</text>
+      <rect x="190" y="20" width="130" height="8" rx="2" fill="#21262d" />
+      <rect x="190" y="20" width="92" height="8" rx="2" fill="#58a6ff" />
+      <text x="330" y="28" class="hud-highlight" fill="#58a6ff">30 Solved</text>
+
+      <!-- Graphs -->
+      <text x="0" y="48" class="hud-text">Graphs &amp; BFS/DFS</text>
+      <rect x="190" y="40" width="130" height="8" rx="2" fill="#21262d" />
+      <rect x="190" y="40" width="80" height="8" rx="2" fill="#ff9f43" />
+      <text x="330" y="48" class="hud-highlight" fill="#ff9f43">25 Solved</text>
+
+      <!-- Arrays / Heaps -->
+      <text x="0" y="68" class="hud-text">Arrays, Heaps &amp; Two Pointers</text>
+      <rect x="190" y="60" width="130" height="8" rx="2" fill="#21262d" />
+      <rect x="190" y="60" width="115" height="8" rx="2" fill="#a55eea" />
+      <text x="330" y="68" class="hud-highlight" fill="#a55eea">38 Solved</text>
+    </g>
+  </g>
+</svg>

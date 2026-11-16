@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 130" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 136" width="100%" height="100%">
   <defs>
     <style>
       .terminal-header {
@@ -10,7 +10,7 @@
       }
       .ach-name {
         font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
-        font-size: 9.5px;
+        font-size: 9px;
         font-weight: bold;
         fill: #f0f6fc;
       }
@@ -22,7 +22,7 @@
     </style>
   </defs>
 
-  <rect x="0" y="0" width="880" height="130" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+  <rect x="0" y="0" width="880" height="136" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
 
   <!-- Header -->
   <g transform="translate(28, 22)">
@@ -31,42 +31,42 @@
 
   <!-- 4 Achievement Cards -->
   <!-- 1. Pull Shark -->
-  <g transform="translate(28, 42)">
-    <rect x="0" y="0" width="194" height="68" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-    <circle cx="28" cy="34" r="16" fill="#1f3a5f" />
-    <text x="28" y="40" font-size="16" text-anchor="middle">🦈</text>
-    <text x="56" y="28" class="ach-name">PULL SHARK</text>
-    <text x="56" y="46" class="ach-sub">PRs &amp; Merges</text>
-    <text x="56" y="58" class="ach-sub" fill="#58a6ff">Unlocked</text>
+  <g transform="translate(28, 44)">
+    <rect x="0" y="0" width="194" height="72" rx="6" fill="#0d1117" stroke="#1f6feb" stroke-width="1.2" />
+    <circle cx="28" cy="36" r="16" fill="#1f3a5f" />
+    <text x="28" y="42" font-size="16" text-anchor="middle">🦈</text>
+    <text x="54" y="28" class="ach-name">PULL SHARK</text>
+    <text x="54" y="46" class="ach-sub">PRs &amp; Merges</text>
+    <text x="54" y="60" class="ach-sub" fill="#58a6ff">★ UNLOCKED</text>
   </g>
 
   <!-- 2. Quickdraw -->
-  <g transform="translate(238, 42)">
-    <rect x="0" y="0" width="194" height="68" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-    <circle cx="28" cy="34" r="16" fill="#4d3800" />
-    <text x="28" y="40" font-size="16" text-anchor="middle">⚡</text>
-    <text x="56" y="28" class="ach-name">QUICKDRAW</text>
-    <text x="56" y="46" class="ach-sub">Fast Responder</text>
-    <text x="56" y="58" class="ach-sub" fill="#e3b341">Unlocked</text>
+  <g transform="translate(238, 44)">
+    <rect x="0" y="0" width="194" height="72" rx="6" fill="#0d1117" stroke="#d29922" stroke-width="1.2" />
+    <circle cx="28" cy="36" r="16" fill="#4d3800" />
+    <text x="28" y="42" font-size="16" text-anchor="middle">⚡</text>
+    <text x="54" y="28" class="ach-name">QUICKDRAW</text>
+    <text x="54" y="46" class="ach-sub">Fast Responder</text>
+    <text x="54" y="60" class="ach-sub" fill="#e3b341">★ UNLOCKED</text>
   </g>
 
-  <!-- 3. Pair Extraordinaire -->
-  <g transform="translate(448, 42)">
-    <rect x="0" y="0" width="194" height="68" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-    <circle cx="28" cy="34" r="16" fill="#2d1d4d" />
-    <text x="28" y="40" font-size="16" text-anchor="middle">👥</text>
-    <text x="56" y="28" class="ach-name">PAIR ARTIST</text>
-    <text x="56" y="46" class="ach-sub">Co-authored Git</text>
-    <text x="56" y="58" class="ach-sub" fill="#bc8cff">Unlocked</text>
+  <!-- 3. Pair Artist -->
+  <g transform="translate(448, 44)">
+    <rect x="0" y="0" width="194" height="72" rx="6" fill="#0d1117" stroke="#8957e5" stroke-width="1.2" />
+    <circle cx="28" cy="36" r="16" fill="#2d1d4d" />
+    <text x="28" y="42" font-size="16" text-anchor="middle">👥</text>
+    <text x="54" y="28" class="ach-name">PAIR ARTIST</text>
+    <text x="54" y="46" class="ach-sub">Co-authored Git</text>
+    <text x="54" y="60" class="ach-sub" fill="#bc8cff">★ UNLOCKED</text>
   </g>
 
-  <!-- 4. Arctic Vault / Builder -->
-  <g transform="translate(658, 42)">
-    <rect x="0" y="0" width="194" height="68" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-    <circle cx="28" cy="34" r="16" fill="#0f4429" />
-    <text x="28" y="40" font-size="16" text-anchor="middle">❄️</text>
-    <text x="56" y="28" class="ach-name">VAULT HERO</text>
-    <text x="56" y="46" class="ach-sub">Code Preserved</text>
-    <text x="56" y="58" class="ach-sub" fill="#39d353">Verified</text>
+  <!-- 4. Arctic Vault Hero -->
+  <g transform="translate(658, 44)">
+    <rect x="0" y="0" width="194" height="72" rx="6" fill="#0d1117" stroke="#238636" stroke-width="1.2" />
+    <circle cx="28" cy="36" r="16" fill="#0f4429" />
+    <text x="28" y="42" font-size="16" text-anchor="middle">❄️</text>
+    <text x="54" y="28" class="ach-name">VAULT HERO</text>
+    <text x="54" y="46" class="ach-sub">Code Preserved</text>
+    <text x="54" y="60" class="ach-sub" fill="#39d353">★ VERIFIED</text>
   </g>
 </svg>

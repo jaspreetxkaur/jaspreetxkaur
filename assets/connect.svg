@@ -1,49 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 136" width="100%" height="100%">
   <defs>
     <style>
-      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
-      .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
-      .bold { font-weight: 900; }
-      .medium { font-weight: 600; }
+      .term-green {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 11px;
+        font-weight: bold;
+        fill: #39d353;
+        letter-spacing: 1.5px;
+      }
+      .conn-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        fill: #ffffff;
+      }
+      .conn-sub {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 11px;
+        fill: #8b949e;
+      }
+      .key-text {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 10px;
+        font-weight: bold;
+        fill: #f0f6fc;
+      }
     </style>
   </defs>
 
-  <!-- Main Shadow -->
-  <rect x="6" y="6" width="888" height="138" rx="8" fill="#111111" />
-  <!-- Main Card -->
-  <rect x="0" y="0" width="888" height="138" rx="8" fill="#FAF6EE" stroke="#111111" stroke-width="3" />
+  <rect x="0" y="0" width="880" height="136" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
 
-  <!-- Headline -->
-  <g transform="translate(28, 38)">
-    <text x="0" y="0" class="mono bold" font-size="11" fill="#0047FF" letter-spacing="2">&gt;_ END_TRANSMISSION // REACH OUT</text>
-    <text x="0" y="32" class="sans bold" font-size="28" fill="#111111" letter-spacing="-1">LET'S BUILD SOMETHING INTELLIGENT.</text>
-    <text x="0" y="56" class="mono medium" font-size="11" fill="#555555">Always open to discussions on AI/ML systems, backend engineering, and collaborative projects.</text>
+  <g transform="translate(32, 28)">
+    <text x="0" y="0" class="term-green">&gt; CONNECT // REACH OUT &amp; COLLABORATE</text>
+    <text x="0" y="32" class="conn-title">Let's build something intelligent.</text>
+    <text x="0" y="54" class="conn-sub">Always open to discussions on AI/ML systems, backend architectures, and engineering projects.</text>
   </g>
 
-  <!-- Connect Channels -->
-  <g transform="translate(560, 26)">
-    <!-- GitHub Button -->
-    <g transform="translate(0, 0)">
-      <rect x="3" y="3" width="300" height="28" rx="4" fill="#111111" />
-      <rect x="0" y="0" width="300" height="28" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
-      <text x="12" y="18" class="mono bold" font-size="10" fill="#0047FF">GITHUB</text>
-      <text x="80" y="18" class="mono medium" font-size="10.5" fill="#111111">: github.com/jaspreetxkaur</text>
-    </g>
+  <!-- Interactive Terminal Buttons -->
+  <g transform="translate(32, 94)">
+    <rect x="0" y="0" width="180" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
+    <text x="90" y="17" class="key-text" text-anchor="middle">🌐 GitHub : @jaspreetxkaur</text>
 
-    <!-- LinkedIn Button -->
-    <g transform="translate(0, 34)">
-      <rect x="3" y="3" width="300" height="28" rx="4" fill="#111111" />
-      <rect x="0" y="0" width="300" height="28" rx="4" fill="#FFE600" stroke="#111111" stroke-width="1.8" />
-      <text x="12" y="18" class="mono bold" font-size="10" fill="#111111">LINKEDIN</text>
-      <text x="80" y="18" class="mono medium" font-size="10" fill="#111111">: in/jaspreet-kaur-aiml-engineer</text>
-    </g>
+    <rect x="194" y="0" width="220" height="26" rx="4" fill="#0d1117" stroke="#58a6ff" stroke-width="1.2" />
+    <text x="304" y="17" class="key-text" fill="#58a6ff" text-anchor="middle">💼 LinkedIn : Jaspreet Kaur</text>
 
-    <!-- Email Button -->
-    <g transform="translate(0, 68)">
-      <rect x="3" y="3" width="300" height="28" rx="4" fill="#111111" />
-      <rect x="0" y="0" width="300" height="28" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
-      <text x="12" y="18" class="mono bold" font-size="10" fill="#E11D48">EMAIL</text>
-      <text x="80" y="18" class="mono medium" font-size="9.5" fill="#111111">: jaspreet2775.beai24@chitkara.edu.in</text>
-    </g>
+    <rect x="428" y="0" width="280" height="26" rx="4" fill="#0d1117" stroke="#39d353" stroke-width="1.2" />
+    <text x="568" y="17" class="key-text" fill="#39d353" text-anchor="middle">✉️ Email : jaspreet2775.beai24@chitkara</text>
   </g>
 </svg>

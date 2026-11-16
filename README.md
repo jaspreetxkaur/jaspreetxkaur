@@ -1,134 +1,28 @@
 <div align="center">
 
-<!-- RETRO DIGITAL ATELIER: VINTAGE DESKTOP HERO -->
+<!-- ANIMATED LOFI PIXEL ROOM (MOVING CAT, FLICKERING LIGHT, SCROLLING CODE) -->
+<img src="./assets/pixel-room.gif" alt="Jaspreet Kaur — Animated Pixel Room" width="100%" />
+
+<br/><br/>
+
+<!-- ANIMATED TYPING HEADER -->
 <a href="https://github.com/jaspreetxkaur">
-  <img src="./assets/atelier-hero.svg" alt="The Retro Digital Atelier — Jaspreet Kaur" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=39D353&background=161B2200&center=true&vCenter=true&width=760&lines=FULL+STACK+DEVELOPER;EXPLORING+AI+%26+ML+SYSTEMS;BUILDING+UNILLM+%26+CAREERFORGE-AI;ALWAYS+PUSHING+COMMITS+%E2%9A%A1" alt="Typing Banner" />
 </a>
 
-</div>
-
-<br/>
-
-## `✦ /ABOUT THE ATELIER`
-
-<div align="left">
-
-> *"I build intelligent applications, engineer backend systems, and turn ideas into working software."*
-
-I am a Computer Science & Engineering student specializing in **Artificial Intelligence & Machine Learning** at **Chitkara University** (Class of 2028 · CGPA: 9.21). My engineering work lives at the intersection of full-stack development, modern backend architectures, and intelligent systems powered by AI/ML and LLM infrastructure.
-
-Rather than treating software engineering as syntax alone, I approach it as craftsmanship—studying distributed data flows, memory latency bottlenecks, database schema indexing, and deploying resilient services that solve actual problems.
-
-```
-• Academic Base    : B.E. Computer Science & Engineering (AI & ML) · Chitkara University
-• Graduation Class : 2028 (Rajpura, Punjab)
-• Current Focus    : Scalable Backend Systems · Generative AI / RAG Pipelines · LLM Inference Dynamics
-• Problem Solving  : 128+ Algorithmic Challenges Solved in Java (Trees, Graphs, DP)
-```
-
-</div>
-
-<br/>
-
----
-
-## `✦ /INSTRUMENTS & TECH STACK`
-
-<div align="center">
-  <!-- ATELIER TECH STACK CANVAS -->
-  <img src="./assets/atelier-tech-stack.svg" alt="Technical Arsenal & Instruments" width="100%" />
-</div>
-
-<br/>
-
-<div align="left">
-
-| Discipline | Core Technologies & Stacks |
-| :--- | :--- |
-| **Languages** | `Python` · `C++` · `Java` · `JavaScript (ES6+)` · `SQL` · `HTML5` · `CSS3` |
-| **Frontend & Web** | `React` · `Component Architecture` · `Responsive UI Design` · `Modern CSS` |
-| **Backend & APIs** | `FastAPI` · `Flask` · `Django` · `Node.js` · `REST APIs` · `Socket.IO` · `JWT` |
-| **AI / Machine Learning** | `PyTorch` · `Scikit-learn` · `NumPy` · `Pandas` · `DNNs` · `RAG Pipelines` · `LLM APIs` |
-| **Data & Infrastructure** | `MongoDB` · `PostgreSQL` · `SQLite` · `Git` · `GitHub Actions` · `Docker` |
-
-<br/>
-
-<!-- ELEGANT VINTAGE-TINTED TECH BADGES -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-282438?style=flat-square&logo=python&logoColor=E8A0BF" alt="Python" />&nbsp;
-  <img src="https://img.shields.io/badge/PyTorch-282438?style=flat-square&logo=pytorch&logoColor=E8A0BF" alt="PyTorch" />&nbsp;
-  <img src="https://img.shields.io/badge/React-282438?style=flat-square&logo=react&logoColor=E8A0BF" alt="React" />&nbsp;
-  <img src="https://img.shields.io/badge/FastAPI-282438?style=flat-square&logo=fastapi&logoColor=B9C9BB" alt="FastAPI" />&nbsp;
-  <img src="https://img.shields.io/badge/Django-282438?style=flat-square&logo=django&logoColor=B9C9BB" alt="Django" />&nbsp;
-  <img src="https://img.shields.io/badge/PostgreSQL-282438?style=flat-square&logo=postgresql&logoColor=C5B4F2" alt="PostgreSQL" />&nbsp;
-  <img src="https://img.shields.io/badge/MongoDB-282438?style=flat-square&logo=mongodb&logoColor=B9C9BB" alt="MongoDB" />&nbsp;
-  <img src="https://img.shields.io/badge/Docker-282438?style=flat-square&logo=docker&logoColor=C5B4F2" alt="Docker" />&nbsp;
-  <img src="https://img.shields.io/badge/Git-282438?style=flat-square&logo=git&logoColor=D9B58C" alt="Git" />
+  <sub>The window shows the weather in Rajpura, Punjab right now. The monitor scrolls my latest commits; the shelf holds a book for each language I write.</sub>
 </p>
 
-</div>
-
 <br/>
 
----
+<!-- RETRO DEVELOPER PASSPORT / ABOUT CARD -->
+<img src="./assets/pixel-about.svg" alt="About Jaspreet Kaur" width="100%" />
 
-## `✦ /FEATURED PROJECTS`
+<br/><br/>
 
-<!-- PROJECT 01: BRIMLINE -->
-<div align="left">
-
-<a href="https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast">
-  <img src="./assets/atelier-project-brimline.svg" alt="Project 01 — Brimline" width="100%" />
-</a>
-
-**`Brimline`** &nbsp;·&nbsp; `Deep Learning & LLM Infrastructure` &nbsp;·&nbsp; `[STATUS: RESEARCH IN PROGRESS]`  
-*Exploration into Deep Neural Network forecasting of GPU Key-Value (KV) cache memory saturation and latency SLO violations during LLM inference serving.*
-
-- **Controlled Workload Simulator:** Developed a custom Python harness simulating heterogeneous token generation bursts and prompt length distributions.
-- **Telemetry Processing:** Ingests live operational metrics including input/output token volume, prompt arrival rates (QPS), and instantaneous GPU memory utilization.
-- **Engineering Direction:** Training lightweight neural forecasters to predict memory spikes before out-of-memory evictions occur, minimizing tail latency degradation.
-- **Stack:** `Python` · `PyTorch` · `Deep Neural Networks` · `Workload Simulation`
-- **Repository:** [📦 github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast)
-
-</div>
-
-<br/>
-
-<!-- PROJECT 02: CAREERFORGE AI -->
-<div align="left">
-
-<a href="https://github.com/jaspreetxkaur/CareerForge-AI">
-  <img src="./assets/atelier-project-careerforge.svg" alt="Project 02 — CareerForge AI" width="100%" />
-</a>
-
-**`CareerForge AI`** &nbsp;·&nbsp; `AI Application & Full-Stack Development`  
-*An intelligent placement and career companion that combines automated resume analysis, readiness scoring, personalized roadmaps, and multimodal mock interviews.*
-
-- **Azure AI Multimodal Pipeline:** Integrates Azure OpenAI and Azure AI Speech services for realistic conversational interview simulations.
-- **Speech & Behavioral Analysis:** Processes audio and camera inputs to evaluate speaking pace, filler-word frequency, and response latency.
-- **Placement RAG Architecture:** Domain-specific retrieval pipeline providing context-aware guidance tailored to university campus recruitment patterns.
-- **Stack:** `Python` · `Azure OpenAI` · `Azure AI Speech` · `RAG` · `REST API` · `Vercel`
-- **Repository:** [📦 github.com/jaspreetxkaur/CareerForge-AI](https://github.com/jaspreetxkaur/CareerForge-AI) &nbsp;·&nbsp; **Live Demo:** [🚀 career-forge-ai-navy.vercel.app](https://career-forge-ai-navy.vercel.app/)
-
-</div>
-
-<br/>
-
-<!-- PROJECT 03: DEMANDIQ -->
-<div align="left">
-
-<a href="https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model">
-  <img src="./assets/atelier-project-demandiq.svg" alt="Project 03 — DemandIQ" width="100%" />
-</a>
-
-**`DemandIQ`** &nbsp;·&nbsp; `Machine Learning & Predictive Analytics`  
-*A machine learning time-series demand forecasting and inventory risk mitigation system trained on a 10-year weekly dataset across 6 cities, 20 categories, and 100 SKUs.*
-
-- **Feature Engineering:** Constructed rolling lag features, multi-window moving averages, volatility indicators, and spike detection algorithms.
-- **Seasonal Modeling:** Incorporated localized festive and calendar events to anticipate consumer demand spikes.
-- **Inventory Risk Scoring:** Quantitative heuristic assessing product-city-week stockout risk versus overstock carrying cost probabilities.
-- **Stack:** `Python` · `XGBoost` · `Random Forest` · `Pandas` · `Scikit-learn` · `NumPy`
-- **Repository:** [📦 github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model)
+<!-- RETRO ARCADE STATS HUD -->
+<img src="./assets/pixel-stats.svg" alt="Engineering Stats &amp; Telemetry" width="100%" />
 
 </div>
 
@@ -136,21 +30,19 @@ Rather than treating software engineering as syntax alone, I approach it as craf
 
 ---
 
-## `✦ /LAVENDER CONTRIBUTION TELEMETRY`
+### `> ACTIVITY & DAILY STREAK`
 
 <div align="center">
 
-<!-- GENUINE ANIMATED LAVENDER SNAKE -->
+<!-- LIVE GITHUB STREAK STATS -->
 <a href="https://github.com/jaspreetxkaur">
-  <img src="./assets/contribution-snake-lavender.svg" alt="Jaspreet Kaur — Lavender Contribution Snake" width="100%" />
+  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=dark&background=161B22&stroke=30363D&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=F0F6FC&currStreakLabel=39D353&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
 </a>
 
 <br/><br/>
 
-<!-- MATCHING LAVENDER TELEMETRY -->
-<a href="https://github.com/jaspreetxkaur">
-  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=custom&background=282438&border=E8A0BF&stroke=E8A0BF&ring=C5B4F2&fire=E8A0BF&currStreakNum=FAF6EE&sideNums=FAF6EE&currStreakLabel=C5B4F2&sideLabels=B9C9BB&dates=FAF6EE" alt="Live GitHub Streak in Lavender Palette" width="100%" />
-</a>
+<!-- RETRO CONTRIBUTION HEATMAP -->
+<img src="./assets/pixel-activity.svg" alt="Contribution Activity &amp; Heatmap" width="100%" />
 
 </div>
 
@@ -158,30 +50,106 @@ Rather than treating software engineering as syntax alone, I approach it as craf
 
 ---
 
-## `✦ /CORRESPONDENCE & CONNECT`
+### `> FEATURED REPOSITORIES`
 
 <div align="center">
-  <a href="https://linkedin.com/in/jaspreet-kaur-aiml-engineer">
-    <img src="./assets/atelier-contact.svg" alt="Atelier Correspondence Desk" width="100%" />
-  </a>
+  <!-- PIXEL CARDS WITH 8-BIT GLYPHS & LIVE VISUAL METERS -->
+  <img src="./assets/pixel-projects.svg" alt="Featured Projects Grid with Visual Meters" width="100%" />
+</div>
+
+<br/>
+
+<details open>
+<summary><b>[VIEW ALL 8 ACTIVE REPOSITORIES &amp; DEMOS]</b></summary>
+<br/>
+
+| Repository | Domain &amp; Stack | Architecture &amp; Highlights | Action |
+| :--- | :--- | :--- | :---: |
+| [**UniLLM**](https://github.com/jaspreetxkaur/UniLLM) | `AI Gateway` · `Node` · `Express` · `MongoDB` | Multi-tenant AI router across OpenAI, Gemini &amp; Anthropic with streaming &amp; RBAC | [📦 View Code](https://github.com/jaspreetxkaur/UniLLM) |
+| [**CareerForge-AI**](https://github.com/jaspreetxkaur/CareerForge-AI) | `AI Application` · `Python` · `Azure AI` · `RAG` | AI placement companion with automated resume scoring, placement RAG &amp; voice interviews | [📦 Code](https://github.com/jaspreetxkaur/CareerForge-AI) · [🚀 Live Demo](https://career-forge-ai-navy.vercel.app/) |
+| [**BrimLine — KV-Cache**](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast) | `Deep Learning` · `PyTorch` · `DNNs` | Forecasting KV-cache memory pressure and latency SLO violations in LLM serving | [⚡ View Code](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast) `[In Progress]` |
+| [**AI Demand Forecasting**](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model) | `Machine Learning` · `XGBoost` · `Pandas` | Time-series ML system forecasting retail demand curves and predicting stockout risks | [📦 View Code](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model) |
+| [**DSA-Problem-Solving**](https://github.com/jaspreetxkaur/DSA-Problem-Solving) | `Algorithms` · `Java` · `C++` | Comprehensive algorithmic problem-solving repository with clean solutions in Trees, Graphs &amp; DP | [📦 View Code](https://github.com/jaspreetxkaur/DSA-Problem-Solving) |
+| [**Fake News Detector**](https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector) | `NLP` · `Python` · `Scikit-learn` | Natural language processing pipeline classifying and detecting deceptive online articles | [📦 View Code](https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector) |
+| [**Netflix Data Analysis**](https://github.com/jaspreetxkaur/Netflix-Data-Analysis) | `Data Science` · `Python` · `Pandas` | Exploratory data analysis uncovering global content trends, genre distributions &amp; release cycles | [📦 View Code](https://github.com/jaspreetxkaur/Netflix-Data-Analysis) |
+| [**Allora Fashion Web**](https://github.com/jaspreetxkaur/Allora---The-essence-of-chic) | `Frontend Web` · `HTML5` · `CSS3` · `JS` | Clean, responsive modern web design and editorial user interface | [📦 View Code](https://github.com/jaspreetxkaur/Allora---The-essence-of-chic) |
+
+</details>
+
+<br/>
+
+---
+
+### `> TECH STACK & CORE ARSENAL`
+
+<div align="center">
+  <!-- CYBER MATRIX ARSENAL -->
+  <img src="./assets/pixel-stack.svg" alt="Technologies &amp; Frameworks" width="100%" />
 </div>
 
 <br/>
 
 <p align="center">
-  <a href="https://github.com/jaspreetxkaur">
-    <img src="https://img.shields.io/badge/GitHub-jaspreetxkaur-282438?style=flat-square&logo=github&logoColor=FAF6EE" alt="GitHub" />
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/jaspreet-kaur-aiml-engineer">
-    <img src="https://img.shields.io/badge/LinkedIn-Jaspreet_Kaur-282438?style=flat-square&logo=linkedin&logoColor=C5B4F2" alt="LinkedIn" />
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:jaspreet2775.beai24@chitkara.edu.in">
-    <img src="https://img.shields.io/badge/Email-Chitkara_University-282438?style=flat-square&logo=gmail&logoColor=E8A0BF" alt="Email" />
-  </a>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" alt="Java" />&nbsp;
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />&nbsp;
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white" alt="C++" />&nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" />&nbsp;
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" />&nbsp;
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />&nbsp;
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white" alt="MongoDB" />&nbsp;
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />&nbsp;
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=white" alt="Scikit-Learn" />&nbsp;
+  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white" alt="Azure" />&nbsp;
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" />&nbsp;
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />&nbsp;
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&amp;logo=postman&amp;logoColor=white" alt="Postman" />
+</p>
+
+<br/>
+
+---
+
+### `> SYSTEM TELEMETRY & LAB RADAR`
+
+<div align="center">
+  <!-- ACTIVE LAB RADAR & ALGORITHMIC METRICS -->
+  <img src="./assets/pixel-radar.svg" alt="System Telemetry &amp; Lab Radar" width="100%" />
+</div>
+
+<br/>
+
+---
+
+### `> GITHUB ACHIEVEMENTS & MILESTONES`
+
+<div align="center">
+  <!-- RETRO ARCADE TROPHY SHELF -->
+  <img src="./assets/github-achievements.svg" alt="GitHub Achievements &amp; Milestones" width="100%" />
+</div>
+
+<br/>
+
+---
+
+### `> CONNECT`
+
+<div align="center">
+  <img src="./assets/connect.svg" alt="Reach Out &amp; Connect" width="100%" />
+</div>
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/jaspreetxkaur"><kbd>&nbsp;🌐&nbsp; GitHub : @jaspreetxkaur &nbsp;</kbd></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/jaspreet-kaur-aiml-engineer"><kbd>&nbsp;💼&nbsp; LinkedIn : Jaspreet Kaur &nbsp;</kbd></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:jaspreet2775.beai24@chitkara.edu.in"><kbd>&nbsp;✉️&nbsp; Email : jaspreet2775.beai24@chitkara.edu.in &nbsp;</kbd></a>
 </p>
 
 <br/>
 
 <div align="center">
-  <sub><code>The Retro Digital Atelier · Jaspreet Kaur · Chitkara University '28 · Always Building</code></sub>
+  <sub><code>Pixel Studio • JASPREET // CHITKARA COHORT 2028 // ALWAYS BUILDING</code></sub>
 </div>
