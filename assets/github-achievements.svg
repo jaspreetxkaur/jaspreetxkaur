@@ -1,79 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 132" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 136" width="100%" height="100%">
   <defs>
     <style>
-      .term-green {
-        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+      .hdr-pill {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
         font-size: 11px;
-        font-weight: bold;
-        fill: #58a6ff;
+        font-weight: 700;
         letter-spacing: 1.2px;
-      }
-      .ach-name {
-        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
-        font-size: 9px;
-        font-weight: bold;
         fill: #f0f6fc;
       }
-      .ach-sub {
+      .ach-title {
         font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
-        font-size: 9px;
+        font-size: 11px;
+        font-weight: 700;
+        fill: #ffffff;
+      }
+      .ach-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 9.5px;
         fill: #8b949e;
       }
       .ach-badge {
         font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
-        font-size: 8.5px;
-        font-weight: bold;
+        font-size: 8px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+      .ach-card:hover .card-box {
+        stroke-width: 2;
+        fill: #161b22;
       }
     </style>
   </defs>
 
-  <rect x="0" y="0" width="880" height="132" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+  <!-- Container Box -->
+  <rect x="0" y="0" width="880" height="136" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
 
-  <!-- Header -->
+  <!-- Cute Header Pill -->
   <g transform="translate(28, 22)">
-    <text x="0" y="0" class="term-green">&gt; GITHUB ACHIEVEMENTS &amp; RECOGNITION</text>
-    <rect x="360" y="-12" width="150" height="16" rx="3" fill="#21262d" />
-    <text x="370" y="0" font-family="'SF Mono', monospace" font-size="9" font-weight="bold" fill="#58a6ff">● VERIFIED BADGES</text>
+    <rect x="0" y="-12" width="235" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+    <text x="10" y="3" class="hdr-pill"><tspan fill="#ff94c2">🎀 </tspan>COLLECTOR'S SHOWCASE</text>
+    
+    <g transform="translate(674, -10)">
+      <rect x="0" y="0" width="150" height="18" rx="3" fill="#21262d" />
+      <text x="75" y="12" font-family="'SF Mono', monospace" font-size="9" font-weight="bold" fill="#ff94c2" text-anchor="middle">★ VERIFIED TROPHIES</text>
+    </g>
   </g>
 
-  <!-- 4 Clean Metallic Cards -->
-  <!-- 1. Pull Shark -->
-  <g transform="translate(28, 42)">
-    <rect x="0" y="0" width="194" height="70" rx="6" fill="#0d1117" stroke="#388bfd" stroke-width="1.2" />
-    <circle cx="28" cy="35" r="16" fill="#1f3a5f" />
-    <text x="28" y="41" font-size="16" text-anchor="middle">🦈</text>
-    <text x="54" y="27" class="ach-name">PULL SHARK</text>
-    <text x="54" y="44" class="ach-sub">PRs &amp; Merges</text>
-    <text x="54" y="58" class="ach-badge" fill="#58a6ff">★ UNLOCKED</text>
-  </g>
+  <!-- 4 Cute Cards -->
+  
+    <g transform="translate(28, 44)" class="ach-card">
+      <rect x="0" y="0" width="196" height="74" rx="8" fill="#0d1117" stroke="#ff94c2" stroke-width="1.3" opacity="0.9" class="card-box" />
+      
+      <!-- Cute Sprite Container -->
+      <g transform="translate(14, 18)">
+        <rect x="0" y="0" width="38" height="38" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <g transform="translate(1, 4)">
+          <rect x="12" y="0" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="0" width="2.8" height="2.8" fill="#58a6ff" /><rect x="18" y="0" width="2.8" height="2.8" fill="#58a6ff" /><rect x="9" y="3" width="2.8" height="2.8" fill="#58a6ff" /><rect x="12" y="3" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="3" width="2.8" height="2.8" fill="#58a6ff" /><rect x="18" y="3" width="2.8" height="2.8" fill="#58a6ff" /><rect x="21" y="3" width="2.8" height="2.8" fill="#58a6ff" /><rect x="24" y="3" width="2.8" height="2.8" fill="#58a6ff" /><rect x="6" y="6" width="2.8" height="2.8" fill="#58a6ff" /><rect x="9" y="6" width="2.8" height="2.8" fill="#58a6ff" /><rect x="12" y="6" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="6" width="2.8" height="2.8" fill="#ffffff" /><rect x="18" y="6" width="2.8" height="2.8" fill="#58a6ff" /><rect x="21" y="6" width="2.8" height="2.8" fill="#58a6ff" /><rect x="24" y="6" width="2.8" height="2.8" fill="#58a6ff" /><rect x="27" y="6" width="2.8" height="2.8" fill="#58a6ff" /><rect x="3" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="6" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="9" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="12" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="18" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="21" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="24" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="27" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="30" y="9" width="2.8" height="2.8" fill="#58a6ff" /><rect x="0" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="3" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="6" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="9" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="12" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="18" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="21" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="24" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="27" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="30" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="33" y="12" width="2.8" height="2.8" fill="#58a6ff" /><rect x="3" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="6" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="9" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="12" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="18" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="21" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="24" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="27" y="15" width="2.8" height="2.8" fill="#58a6ff" /><rect x="6" y="18" width="2.8" height="2.8" fill="#58a6ff" /><rect x="9" y="18" width="2.8" height="2.8" fill="#58a6ff" /><rect x="12" y="18" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="18" width="2.8" height="2.8" fill="#58a6ff" /><rect x="18" y="18" width="2.8" height="2.8" fill="#58a6ff" /><rect x="21" y="18" width="2.8" height="2.8" fill="#58a6ff" /><rect x="9" y="21" width="2.8" height="2.8" fill="#58a6ff" /><rect x="12" y="21" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="21" width="2.8" height="2.8" fill="#58a6ff" /><rect x="12" y="24" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="24" width="2.8" height="2.8" fill="#58a6ff" /><rect x="15" y="27" width="2.8" height="2.8" fill="#58a6ff" /><rect x="22" y="2" width="6" height="5" rx="2" fill="#ff94c2" /><circle cx="25" cy="4.5" r="1.5" fill="#ffffff" />
+        </g>
+      </g>
 
-  <!-- 2. Quickdraw -->
-  <g transform="translate(238, 42)">
-    <rect x="0" y="0" width="194" height="70" rx="6" fill="#0d1117" stroke="#d29922" stroke-width="1.2" />
-    <circle cx="28" cy="35" r="16" fill="#4d3800" />
-    <text x="28" y="41" font-size="16" text-anchor="middle">⚡</text>
-    <text x="54" y="27" class="ach-name">QUICKDRAW</text>
-    <text x="54" y="44" class="ach-sub">Rapid Responder</text>
-    <text x="54" y="58" class="ach-badge" fill="#e3b341">★ UNLOCKED</text>
-  </g>
+      <!-- Details -->
+      <g transform="translate(62, 18)">
+        <text x="0" y="11" class="ach-title">Pull Shark</text>
+        <text x="0" y="25" class="ach-sub">Clean PRs &amp; Merges</text>
+        <rect x="0" y="32" width="69.0" height="15" rx="3.5" fill="#21262d" />
+        <text x="7" y="43" class="ach-badge" fill="#ff94c2">✨ UNLOCKED</text>
+      </g>
+    </g>
+    
+    <g transform="translate(242, 44)" class="ach-card">
+      <rect x="0" y="0" width="196" height="74" rx="8" fill="#0d1117" stroke="#ffd166" stroke-width="1.3" opacity="0.9" class="card-box" />
+      
+      <!-- Cute Sprite Container -->
+      <g transform="translate(14, 18)">
+        <rect x="0" y="0" width="38" height="38" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <g transform="translate(1, 4)">
+          <rect x="14" y="2" width="8" height="5" rx="1.5" fill="#d9b58c" /><rect x="16" y="7" width="4" height="4" fill="#8b949e" /><circle cx="18" cy="20" r="11" fill="#ffe600" opacity="0.25" /><circle cx="18" cy="20" r="8.5" fill="#ffd166" /><polygon points="18,14 20,18 24,19 21,22 22,26 18,24 14,26 15,22 12,19 16,18" fill="#ffffff" />
+        </g>
+      </g>
 
-  <!-- 3. Pair Artist -->
-  <g transform="translate(448, 42)">
-    <rect x="0" y="0" width="194" height="70" rx="6" fill="#0d1117" stroke="#a371f7" stroke-width="1.2" />
-    <circle cx="28" cy="35" r="16" fill="#2d1d4d" />
-    <text x="28" y="41" font-size="16" text-anchor="middle">👥</text>
-    <text x="54" y="27" class="ach-name">PAIR ARTIST</text>
-    <text x="54" y="44" class="ach-sub">Co-authored Git</text>
-    <text x="54" y="58" class="ach-badge" fill="#bc8cff">★ UNLOCKED</text>
-  </g>
+      <!-- Details -->
+      <g transform="translate(62, 18)">
+        <text x="0" y="11" class="ach-title">Quickdraw</text>
+        <text x="0" y="25" class="ach-sub">Rapid PR Responder</text>
+        <rect x="0" y="32" width="69.0" height="15" rx="3.5" fill="#21262d" />
+        <text x="7" y="43" class="ach-badge" fill="#ffd166">⚡ UNLOCKED</text>
+      </g>
+    </g>
+    
+    <g transform="translate(456, 44)" class="ach-card">
+      <rect x="0" y="0" width="196" height="74" rx="8" fill="#0d1117" stroke="#c5b4f2" stroke-width="1.3" opacity="0.9" class="card-box" />
+      
+      <!-- Cute Sprite Container -->
+      <g transform="translate(14, 18)">
+        <rect x="0" y="0" width="38" height="38" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <g transform="translate(1, 4)">
+          <circle cx="12" cy="18" r="8" fill="#faf6ee" /><polygon points="6,12 10,7 12,12" fill="#faf6ee" /><polygon points="12,12 14,7 18,12" fill="#faf6ee" /><circle cx="9" cy="17" r="1" fill="#282438" /><circle cx="15" cy="17" r="1" fill="#282438" /><circle cx="24" cy="18" r="8" fill="#c5b4f2" /><polygon points="18,12 22,7 24,12" fill="#c5b4f2" /><polygon points="24,12 26,7 30,12" fill="#c5b4f2" /><circle cx="21" cy="17" r="1" fill="#282438" /><circle cx="27" cy="17" r="1" fill="#282438" /><path d="M 18 6 C 16 3 13 5 18 9 C 23 5 20 3 18 6 Z" fill="#ff94c2" />
+        </g>
+      </g>
 
-  <!-- 4. Arctic Vault Hero -->
-  <g transform="translate(658, 42)">
-    <rect x="0" y="0" width="194" height="70" rx="6" fill="#0d1117" stroke="#39c5cf" stroke-width="1.2" />
-    <circle cx="28" cy="35" r="16" fill="#0f3b42" />
-    <text x="28" y="41" font-size="16" text-anchor="middle">❄️</text>
-    <text x="54" y="27" class="ach-name">VAULT HERO</text>
-    <text x="54" y="44" class="ach-sub">Code in Arctic Vault</text>
-    <text x="54" y="58" class="ach-badge" fill="#56d4dd">★ VERIFIED</text>
-  </g>
+      <!-- Details -->
+      <g transform="translate(62, 18)">
+        <text x="0" y="11" class="ach-title">Pair Artist</text>
+        <text x="0" y="25" class="ach-sub">Co-Authored Commits</text>
+        <rect x="0" y="32" width="69.0" height="15" rx="3.5" fill="#21262d" />
+        <text x="7" y="43" class="ach-badge" fill="#c5b4f2">💖 UNLOCKED</text>
+      </g>
+    </g>
+    
+    <g transform="translate(670, 44)" class="ach-card">
+      <rect x="0" y="0" width="196" height="74" rx="8" fill="#0d1117" stroke="#56d4dd" stroke-width="1.3" opacity="0.9" class="card-box" />
+      
+      <!-- Cute Sprite Container -->
+      <g transform="translate(14, 18)">
+        <rect x="0" y="0" width="38" height="38" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <g transform="translate(1, 4)">
+          <rect x="8" y="24" width="20" height="5" rx="2" fill="#8b949e" /><circle cx="18" cy="14" r="12" fill="#00d2d3" opacity="0.2" /><circle cx="18" cy="14" r="11" fill="none" stroke="#56d4dd" stroke-width="1.2" /><polygon points="18,7 23,17 13,17" fill="#b9c9bb" /><rect x="17" y="17" width="2" height="3" fill="#8b6540" /><circle cx="14" cy="11" r="1" fill="#ffffff" /><circle cx="21" cy="13" r="1.2" fill="#ffffff" /><circle cx="16" cy="18" r="0.8" fill="#ffffff" />
+        </g>
+      </g>
+
+      <!-- Details -->
+      <g transform="translate(62, 18)">
+        <text x="0" y="11" class="ach-title">Vault Hero</text>
+        <text x="0" y="25" class="ach-sub">Arctic Code Archive</text>
+        <rect x="0" y="32" width="80.0" height="15" rx="3.5" fill="#21262d" />
+        <text x="7" y="43" class="ach-badge" fill="#56d4dd">❄️ PRESERVED</text>
+      </g>
+    </g>
+    
 </svg>

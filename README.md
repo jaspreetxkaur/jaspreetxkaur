@@ -34,10 +34,15 @@
 
 <div align="center">
 
-<!-- ANIMATED STREAK SNAKE IN BABY PINK & DARK PINK (MATRIX CRAWL) -->
+<!-- ANIMATED STREAK SNAKE IN BABY PINK & DARK PINK (FULL MATRIX CRAWL) -->
 <a href="https://github.com/jaspreetxkaur">
   <img src="./assets/pixel-streak-snake.svg" alt="Fast Streak Snake — Baby Pink &amp; Dark Pink" width="100%" />
 </a>
+
+<br/><br/>
+
+<!-- HORIZONTAL DAILY ACTIVITY PULSE GRAPH -->
+<img src="./assets/pixel-activity-graph.svg" alt="Daily Activity Pulse Graph" width="100%" />
 
 <br/><br/>
 
@@ -93,28 +98,26 @@
 
 ---
 
-### `> GITHUB ACHIEVEMENTS & MILESTONES`
+### `> COLLECTOR'S SHOWCASE & ACHIEVEMENTS`
 
 <div align="center">
-  <!-- METALLIC BADGES SHELF -->
-  <img src="./assets/github-achievements.svg" alt="GitHub Achievements &amp; Milestones" width="100%" />
+  <!-- CUTE PIXEL TROPHIES SHOWCASE -->
+  <img src="./assets/github-achievements.svg" alt="Collector's Showcase &amp; Achievements" width="100%" />
 </div>
 
 <br/>
 
 ---
 
-### `> CONNECT`
+### `> ATELIER MAILBOX`
 
 <div align="center">
-  <!-- CLEAN CONNECT TERMINAL -->
-  <a href="https://linkedin.com/in/jaspreet-kaur-aiml-engineer">
-    <img src="./assets/connect.svg" alt="Reach Out &amp; Connect" width="100%" />
-  </a>
+  <!-- CUTE ATELIER DESK CONNECT -->
+  <img src="./assets/connect.svg" alt="Reach Out &amp; Connect" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <sub><code>Pixel Studio • JASPREET // CHITKARA COHORT 2028 // ALWAYS BUILDING</code></sub>
+  <sub><code>Pixel Studio • JASPREET // CHITKARA COHORT 2028 // ALWAYS BUILDING ✨</code></sub>
 </div>

@@ -1,50 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 126" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 138" width="100%" height="100%">
   <defs>
     <style>
-      .term-green {
-        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
-        font-size: 11px;
-        font-weight: bold;
-        fill: #39d353;
-        letter-spacing: 1px;
-      }
-      .conn-title {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        font-size: 20px;
-        font-weight: 800;
-        fill: #ffffff;
-      }
-      .conn-sub {
+      .hdr-pill {
         font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
         font-size: 11px;
-        fill: #8b949e;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        fill: #f0f6fc;
+      }
+      .conn-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        fill: #ffffff;
+        letter-spacing: -0.2px;
+      }
+      .conn-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 11.5px;
+        fill: #c9d1d9;
       }
       .btn-lbl {
         font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
-        font-size: 10px;
-        font-weight: bold;
-        fill: #f0f6fc;
+        font-size: 10.5px;
+        font-weight: 700;
+      }
+      .btn-card:hover .btn-bg {
+        stroke: #ff94c2;
+        fill: #21262d;
+      }
+      .btn-card:hover .btn-lbl {
+        fill: #ffffff;
       }
     </style>
   </defs>
 
-  <rect x="0" y="0" width="880" height="126" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+  <!-- Container Box -->
+  <rect x="0" y="0" width="880" height="138" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
 
-  <g transform="translate(32, 24)">
-    <text x="0" y="0" class="term-green">&gt; CONNECT // REACH OUT &amp; COLLABORATE</text>
-    <text x="0" y="28" class="conn-title">Let's build something intelligent.</text>
-    <text x="0" y="48" class="conn-sub">Open to discussions on AI/ML architectures, backend engineering, and technical collaborations.</text>
+  <!-- Cute Header Pill -->
+  <g transform="translate(28, 22)">
+    <rect x="0" y="-12" width="235" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+    <text x="10" y="3" class="hdr-pill"><tspan fill="#ff94c2">💌 </tspan>ATELIER DESK // SAY HELLO</text>
+    
+    <!-- Cute status indicator -->
+    <g transform="translate(674, -10)">
+      <rect x="0" y="0" width="150" height="18" rx="3" fill="#21262d" />
+      <text x="75" y="12" font-family="'SF Mono', monospace" font-size="9" font-weight="bold" fill="#39d353" text-anchor="middle">● INBOX OPEN · COFFEE ☕</text>
+    </g>
   </g>
 
-  <!-- Interactive Terminal Buttons -->
-  <g transform="translate(32, 84)">
-    <rect x="0" y="0" width="180" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
-    <text x="90" y="17" class="btn-lbl" text-anchor="middle">🌐 GitHub : @jaspreetxkaur</text>
+  <!-- Friendly Greeting Text -->
+  <g transform="translate(28, 44)">
+    <text x="0" y="14" class="conn-title">Let&apos;s build something wonderful together ✨</text>
+    <text x="0" y="34" class="conn-sub">Always excited to connect about AI architectures, creative code, open-source ideas, or grab a coffee!</text>
+  </g>
 
-    <rect x="194" y="0" width="220" height="26" rx="4" fill="#0d1117" stroke="#58a6ff" stroke-width="1.2" />
-    <text x="304" y="17" class="btn-lbl" fill="#58a6ff" text-anchor="middle">💼 LinkedIn : Jaspreet Kaur</text>
+  <!-- 3 Cute Interactive Link Cards -->
+  <g transform="translate(28, 92)">
+    <!-- 1. GitHub -->
+    <a href="https://github.com/jaspreetxkaur" target="_blank" style="text-decoration:none;">
+      <g transform="translate(0, 0)" class="btn-card">
+        <rect x="0" y="0" width="220" height="32" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.2" class="btn-bg" />
+        <text x="110" y="20" class="btn-lbl" fill="#f0f6fc" text-anchor="middle">🐱 GitHub : @jaspreetxkaur</text>
+      </g>
+    </a>
 
-    <rect x="428" y="0" width="290" height="26" rx="4" fill="#0d1117" stroke="#39d353" stroke-width="1.2" />
-    <text x="573" y="17" class="btn-lbl" fill="#39d353" text-anchor="middle">✉️ Email : jaspreet2775.beai24@chitkara</text>
+    <!-- 2. LinkedIn -->
+    <a href="https://linkedin.com/in/jaspreet-kaur-aiml-engineer" target="_blank" style="text-decoration:none;">
+      <g transform="translate(236, 0)" class="btn-card">
+        <rect x="0" y="0" width="240" height="32" rx="6" fill="#0d1117" stroke="#388bfd" stroke-width="1.2" class="btn-bg" />
+        <text x="120" y="20" class="btn-lbl" fill="#58a6ff" text-anchor="middle">💼 LinkedIn : Jaspreet Kaur</text>
+      </g>
+    </a>
+
+    <!-- 3. Email -->
+    <a href="mailto:jaspreet2775.beai24@chitkara.edu.in" target="_blank" style="text-decoration:none;">
+      <g transform="translate(492, 0)" class="btn-card">
+        <rect x="0" y="0" width="332" height="32" rx="6" fill="#0d1117" stroke="#ff94c2" stroke-width="1.2" class="btn-bg" />
+        <text x="166" y="20" class="btn-lbl" fill="#ff94c2" text-anchor="middle">💌 Email : jaspreet2775.beai24@chitkara</text>
+      </g>
+    </a>
   </g>
 </svg>

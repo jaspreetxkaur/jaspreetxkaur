@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pink-area-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff94c2" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#d63384" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="pink-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff94c2" />
+      <stop offset="50%" stop-color="#ff1493" />
+      <stop offset="100%" stop-color="#ff94c2" />
+    </linearGradient>
+
+    <style>
+      .hdr-pill {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        fill: #f0f6fc;
+      }
+      .stat-pill {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 9.5px;
+        font-weight: 600;
+        fill: #8b949e;
+      }
+      .axis-lbl {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 9px;
+        fill: #6e7681;
+      }
+      @keyframes pink-pulse {
+        0%, 100% { r: 6px; opacity: 0.35; }
+        50% { r: 9px; opacity: 0.75; }
+      }
+      .pink-pulse {
+        animation: pink-pulse 2.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="0" y="0" width="880" height="180" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Title & Status Header -->
+  <g transform="translate(28, 22)">
+    <rect x="0" y="-12" width="220" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" />
+    <text x="10" y="3" class="hdr-pill"><tspan fill="#ff94c2">✦ </tspan>DAILY ACTIVITY PULSE</text>
+    
+    <!-- Right Telemetry Chips -->
+    <g transform="translate(464, -10)">
+      <rect x="0" y="0" width="165" height="18" rx="3" fill="#21262d" />
+      <text x="82" y="12" class="stat-pill" fill="#ff94c2" text-anchor="middle">🌙 NIGHT OWL (10PM - 2AM)</text>
+      
+      <rect x="175" y="0" width="175" height="18" rx="3" fill="#21262d" />
+      <text x="262" y="12" class="stat-pill" fill="#39d353" text-anchor="middle">⚡ CONTINUOUS SHIP CYCLE</text>
+    </g>
+  </g>
+
+  <!-- Grid Guidelines (Subtle) -->
+  <g stroke="#21262d" stroke-dasharray="3,4" stroke-width="1">
+    <line x1="45" y1="50" x2="825" y2="50" />
+    <line x1="45" y1="80" x2="825" y2="80" />
+    <line x1="45" y1="110" x2="825" y2="110" />
+    <line x1="45" y1="140" x2="825" y2="140" stroke-dasharray="none" stroke="#30363d" />
+  </g>
+
+  <!-- Area Fill Gradient -->
+  <path d="M 45 125 C 75.0 125, 75.0 110, 105 110 C 135.0 110, 135.0 80, 165 80 C 195.0 80, 195.0 95, 225 95 C 255.0 95, 255.0 45, 285 45 C 315.0 45, 315.0 70, 345 70 C 375.0 70, 375.0 100, 405 100 C 435.0 100, 435.0 50, 465 50 C 495.0 50, 495.0 65, 525 65 C 555.0 65, 555.0 40, 585 40 C 615.0 40, 615.0 85, 645 85 C 675.0 85, 675.0 60, 705 60 C 735.0 60, 735.0 48, 765 48 C 795.0 48, 795.0 55, 825 55 L 825 140 L 45 140 Z" fill="url(#pink-area-grad)" />
+
+  <!-- Smooth Neon Pink Line -->
+  <path d="M 45 125 C 75.0 125, 75.0 110, 105 110 C 135.0 110, 135.0 80, 165 80 C 195.0 80, 195.0 95, 225 95 C 255.0 95, 255.0 45, 285 45 C 315.0 45, 315.0 70, 345 70 C 375.0 70, 375.0 100, 405 100 C 435.0 100, 435.0 50, 465 50 C 495.0 50, 495.0 65, 525 65 C 555.0 65, 555.0 40, 585 40 C 615.0 40, 615.0 85, 645 85 C 675.0 85, 675.0 60, 705 60 C 735.0 60, 735.0 48, 765 48 C 795.0 48, 795.0 55, 825 55" fill="none" stroke="url(#pink-line-grad)" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Data Points -->
+  
+            <circle cx="45" cy="125" r="2.5" fill="#d63384" />
+            
+            <circle cx="105" cy="110" r="2.5" fill="#d63384" />
+            
+            <circle cx="165" cy="80" r="2.5" fill="#d63384" />
+            
+            <circle cx="225" cy="95" r="2.5" fill="#d63384" />
+            
+            <circle cx="285" cy="45" r="6" fill="#ff94c2" opacity="0.4" class="pink-pulse" />
+            <circle cx="285" cy="45" r="3.5" fill="#ff1493" stroke="#ffffff" stroke-width="1.2" />
+            
+            <circle cx="345" cy="70" r="2.5" fill="#d63384" />
+            
+            <circle cx="405" cy="100" r="2.5" fill="#d63384" />
+            
+            <circle cx="465" cy="50" r="6" fill="#ff94c2" opacity="0.4" class="pink-pulse" />
+            <circle cx="465" cy="50" r="3.5" fill="#ff1493" stroke="#ffffff" stroke-width="1.2" />
+            
+            <circle cx="525" cy="65" r="2.5" fill="#d63384" />
+            
+            <circle cx="585" cy="40" r="6" fill="#ff94c2" opacity="0.4" class="pink-pulse" />
+            <circle cx="585" cy="40" r="3.5" fill="#ff1493" stroke="#ffffff" stroke-width="1.2" />
+            
+            <circle cx="645" cy="85" r="2.5" fill="#d63384" />
+            
+            <circle cx="705" cy="60" r="2.5" fill="#d63384" />
+            
+            <circle cx="765" cy="48" r="6" fill="#ff94c2" opacity="0.4" class="pink-pulse" />
+            <circle cx="765" cy="48" r="3.5" fill="#ff1493" stroke="#ffffff" stroke-width="1.2" />
+            
+            <circle cx="825" cy="55" r="2.5" fill="#d63384" />
+            
+
+  <!-- Timeline Month Labels -->
+  <g transform="translate(0, 156)">
+    <text x="50" y="0" class="axis-lbl">WEEK 01</text>
+    <text x="170" y="0" class="axis-lbl">WEEK 08</text>
+    <text x="290" y="0" class="axis-lbl" fill="#ff94c2">UniLLM 🚀</text>
+    <text x="410" y="0" class="axis-lbl">WEEK 20</text>
+    <text x="470" y="0" class="axis-lbl" fill="#00d2d3">CareerForge ✨</text>
+    <text x="590" y="0" class="axis-lbl" fill="#ff9f43">BrimLine ⚡</text>
+    <text x="710" y="0" class="axis-lbl">WEEK 40</text>
+    <text x="810" y="0" class="axis-lbl" fill="#ff94c2">NOW ★</text>
+  </g>
+</svg>
