@@ -66,21 +66,13 @@
 
 <br/>
 
+<!-- INNOVATIVE REPOSITORY ARCHIVE WITH AESTHETIC PINK BORDER (LIKE CONTRIBUTION MATRIX) -->
 <details open>
-<summary><b>[VIEW ALL 8 VERIFIED REPOSITORIES &amp; DEMOS]</b></summary>
+<summary><kbd>&nbsp;🌸&nbsp; [ATELIER VAULT // ALL 8 VERIFIED REPOSITORIES &amp; DEMOS] &nbsp;</kbd></summary>
 <br/>
-
-| Repository | Domain &amp; Stack | Architecture &amp; Highlights | Action |
-| :--- | :--- | :--- | :---: |
-| [**UniLLM**](https://github.com/jaspreetxkaur/UniLLM) | `AI Gateway` · `Node` · `Express` · `MongoDB` | Multi-tenant AI router across OpenAI, Gemini &amp; Anthropic with streaming &amp; RBAC | [📦 View Code](https://github.com/jaspreetxkaur/UniLLM) |
-| [**CareerForge-AI**](https://github.com/jaspreetxkaur/CareerForge-AI) | `AI Application` · `Python` · `Azure AI` · `RAG` | AI placement companion with automated resume scoring, placement RAG &amp; voice interviews | [📦 Code](https://github.com/jaspreetxkaur/CareerForge-AI) · [🚀 Live Demo](https://career-forge-ai-navy.vercel.app/) |
-| [**BrimLine — KV-Cache**](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast) | `Deep Learning` · `PyTorch` · `DNNs` | Forecasting KV-cache memory pressure and latency SLO violations in LLM serving | [⚡ View Code](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast) `[In Progress]` |
-| [**AI Demand Forecasting**](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model) | `Machine Learning` · `XGBoost` · `Pandas` | Time-series ML system forecasting retail demand curves and predicting stockout risks | [📦 View Code](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model) |
-| [**DSA-Problem-Solving**](https://github.com/jaspreetxkaur/DSA-Problem-Solving) | `Algorithms` · `Java` · `C++` | Comprehensive algorithmic problem-solving repository with clean solutions in Trees, Graphs &amp; DP | [📦 View Code](https://github.com/jaspreetxkaur/DSA-Problem-Solving) |
-| [**Fake News Detector**](https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector) | `NLP` · `Python` · `Scikit-learn` | Natural language processing pipeline classifying and detecting deceptive online articles | [📦 View Code](https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector) |
-| [**Netflix Data Analysis**](https://github.com/jaspreetxkaur/Netflix-Data-Analysis) | `Data Science` · `Python` · `Pandas` | Exploratory data analysis uncovering global content trends, genre distributions &amp; release cycles | [📦 View Code](https://github.com/jaspreetxkaur/Netflix-Data-Analysis) |
-| [**Allora Fashion Web**](https://github.com/jaspreetxkaur/Allora---The-essence-of-chic) | `Frontend Web` · `HTML5` · `CSS3` · `JS` | Clean, responsive modern web design and editorial user interface | [📦 View Code](https://github.com/jaspreetxkaur/Allora---The-essence-of-chic) |
-
+<div align="center">
+  <img src="./assets/pixel-repo-archive.svg" alt="All 8 Verified Repositories &amp; Demos" width="100%" />
+</div>
 </details>
 
 <br/>
