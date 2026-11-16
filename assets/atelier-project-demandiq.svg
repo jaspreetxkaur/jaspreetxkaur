@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 140" width="100%" height="100%">
+  <defs>
+    <style>
+      .serif { font-family: 'Playfair Display', Georgia, serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect x="4" y="4" width="872" height="132" rx="8" fill="#1E1A2B" opacity="0.5" />
+  <rect x="0" y="0" width="872" height="132" rx="8" fill="#FDFBF7" stroke="#E8A0BF" stroke-width="1.8" />
+
+  <!-- Window Header -->
+  <path d="M 0 8 C 0 3.58 3.58 0 8 0 L 864 0 C 868.42 0 872 3.58 872 8 L 872 28 L 0 28 Z" fill="#282438" />
+  <circle cx="16" cy="14" r="3.5" fill="#F7C8DA" />
+  <circle cx="28" cy="14" r="3.5" fill="#E8A0BF" />
+  <circle cx="40" cy="14" r="3.5" fill="#B9C9BB" />
+  <text x="56" y="18" class="mono" font-size="10.5" font-weight="700" fill="#F7C8DA" letter-spacing="0.5">atelier://projects/demandiq.ml</text>
+  <text x="856" y="18" class="mono" font-size="9.5" font-weight="700" fill="#B9C9BB" text-anchor="end">[STATUS: COMPLETE &amp; EVALUATED]</text>
+
+  <!-- Body Content -->
+  <g transform="translate(24, 46)">
+    <text x="0" y="0" class="mono" font-size="9.5" font-weight="700" fill="#E8A0BF" letter-spacing="1">PROJECT 03 // PREDICTIVE ANALYTICS &amp; TIME-SERIES</text>
+    <text x="0" y="24" class="serif" font-size="18" font-weight="700" fill="#282438">DemandIQ — Retail Demand &amp; Inventory Risk Engine</text>
+    <text x="0" y="44" class="sans" font-size="11.5" fill="#5E566B">Machine learning forecasting trained on 10-year multi-city retail data with lag features, spike detection, and stockout probability scoring.</text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="59.2" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="29.6" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">Python</text>
+      <rect x="67.2" y="0" width="66.4" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="100.4" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">XGBoost</text>
+      <rect x="141.60000000000002" y="0" width="109.60000000000001" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="196.40000000000003" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">Random Forest</text>
+      <rect x="259.20000000000005" y="0" width="59.2" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="288.80000000000007" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">Pandas</text>
+      <rect x="326.40000000000003" y="0" width="102.4" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="377.6" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">Scikit-learn</text>
+      <rect x="436.80000000000007" y="0" width="52.0" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="462.80000000000007" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">NumPy</text>
+    </g>
+  </g>
+</svg>

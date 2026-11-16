@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" height="100%">
+  <defs>
+    <style>
+      .serif { font-family: 'Playfair Display', Georgia, serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Frame Shadow & Body -->
+  <rect x="5" y="5" width="870" height="250" rx="10" fill="#1E1A2B" opacity="0.6" />
+  <rect x="0" y="0" width="870" height="250" rx="10" fill="#FDFBF7" stroke="#E8A0BF" stroke-width="1.8" />
+
+  <!-- Window Titlebar -->
+  <path d="M 0 10 C 0 4.47 4.47 0 10 0 L 860 0 C 865.53 0 870 4.47 870 10 L 870 32 L 0 32 Z" fill="#E8A0BF" />
+  <circle cx="16" cy="16" r="4.5" fill="#FAF6EE" />
+  <circle cx="30" cy="16" r="4.5" fill="#F7C8DA" />
+  <circle cx="44" cy="16" r="4.5" fill="#B9C9BB" />
+  <text x="64" y="20" class="mono" font-size="11" font-weight="700" fill="#282438" letter-spacing="0.5">atelier://instruments/tech-stack.sys</text>
+  <text x="848" y="20" class="mono" font-size="10" fill="#282438" font-weight="600" text-anchor="end">4 CORE DISCIPLINES · MODERN ECOSYSTEM</text>
+
+  <!-- 4 Columns Grid -->
+  <!-- Col 1: Languages -->
+  <g transform="translate(24, 48)">
+    <rect x="0" y="0" width="190" height="186" rx="6" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1.2" />
+    <path d="M 0 6 C 0 2.68 2.68 0 6 0 L 184 0 C 187.31 0 190 2.68 190 6 L 190 26 L 0 26 Z" fill="#282438" />
+    <text x="12" y="17" class="mono" font-size="10" font-weight="700" fill="#E8A0BF" letter-spacing="0.5">01 // LANGUAGES</text>
+
+    <!-- Items -->
+    <g transform="translate(14, 42)">
+      <circle cx="4" cy="6" r="3" fill="#E8A0BF" />
+      <text x="14" y="10" class="sans" font-size="12" font-weight="700" fill="#282438">Python</text>
+      <text x="14" y="24" class="mono" font-size="9" fill="#756C82">NumPy, PyTorch, RAG</text>
+
+      <circle cx="4" cy="44" r="3" fill="#B9C9BB" />
+      <text x="14" y="48" class="sans" font-size="12" font-weight="700" fill="#282438">C++</text>
+      <text x="14" y="62" class="mono" font-size="9" fill="#756C82">Algorithms, Optimization</text>
+
+      <circle cx="4" cy="82" r="3" fill="#D9B58C" />
+      <text x="14" y="86" class="sans" font-size="12" font-weight="700" fill="#282438">Java</text>
+      <text x="14" y="100" class="mono" font-size="9" fill="#756C82">128+ DSA, OOP, Systems</text>
+
+      <circle cx="4" cy="120" r="3" fill="#C5B4F2" />
+      <text x="14" y="124" class="sans" font-size="12" font-weight="700" fill="#282438">JavaScript</text>
+      <text x="14" y="138" class="mono" font-size="9" fill="#756C82">ES6+, React, Node.js</text>
+    </g>
+  </g>
+
+  <!-- Col 2: Frameworks & Web -->
+  <g transform="translate(232, 48)">
+    <rect x="0" y="0" width="190" height="186" rx="6" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1.2" />
+    <path d="M 0 6 C 0 2.68 2.68 0 6 0 L 184 0 C 187.31 0 190 2.68 190 6 L 190 26 L 0 26 Z" fill="#282438" />
+    <text x="12" y="17" class="mono" font-size="10" font-weight="700" fill="#E8A0BF" letter-spacing="0.5">02 // WEB &amp; BACKEND</text>
+
+    <!-- Items -->
+    <g transform="translate(14, 42)">
+      <circle cx="4" cy="6" r="3" fill="#E8A0BF" />
+      <text x="14" y="10" class="sans" font-size="12" font-weight="700" fill="#282438">React</text>
+      <text x="14" y="24" class="mono" font-size="9" fill="#756C82">Component UI, Hooks</text>
+
+      <circle cx="4" cy="44" r="3" fill="#B9C9BB" />
+      <text x="14" y="48" class="sans" font-size="12" font-weight="700" fill="#282438">FastAPI</text>
+      <text x="14" y="62" class="mono" font-size="9" fill="#756C82">Asynchronous APIs</text>
+
+      <circle cx="4" cy="82" r="3" fill="#D9B58C" />
+      <text x="14" y="86" class="sans" font-size="12" font-weight="700" fill="#282438">Flask &amp; Django</text>
+      <text x="14" y="100" class="mono" font-size="9" fill="#756C82">Microservices &amp; MVC</text>
+
+      <circle cx="4" cy="120" r="3" fill="#C5B4F2" />
+      <text x="14" y="124" class="sans" font-size="12" font-weight="700" fill="#282438">REST &amp; Sockets</text>
+      <text x="14" y="138" class="mono" font-size="9" fill="#756C82">Streaming, Socket.IO</text>
+    </g>
+  </g>
+
+  <!-- Col 3: AI & Machine Learning -->
+  <g transform="translate(440, 48)">
+    <rect x="0" y="0" width="190" height="186" rx="6" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1.2" />
+    <path d="M 0 6 C 0 2.68 2.68 0 6 0 L 184 0 C 187.31 0 190 2.68 190 6 L 190 26 L 0 26 Z" fill="#282438" />
+    <text x="12" y="17" class="mono" font-size="10" font-weight="700" fill="#E8A0BF" letter-spacing="0.5">03 // AI / ML SYSTEMS</text>
+
+    <!-- Items -->
+    <g transform="translate(14, 42)">
+      <circle cx="4" cy="6" r="3" fill="#E8A0BF" />
+      <text x="14" y="10" class="sans" font-size="12" font-weight="700" fill="#282438">PyTorch</text>
+      <text x="14" y="24" class="mono" font-size="9" fill="#756C82">DNNs, KV-Cache Forecast</text>
+
+      <circle cx="4" cy="44" r="3" fill="#B9C9BB" />
+      <text x="14" y="48" class="sans" font-size="12" font-weight="700" fill="#282438">Scikit-Learn</text>
+      <text x="14" y="62" class="mono" font-size="9" fill="#756C82">XGBoost, Predictive ML</text>
+
+      <circle cx="4" cy="82" r="3" fill="#D9B58C" />
+      <text x="14" y="86" class="sans" font-size="12" font-weight="700" fill="#282438">Pandas &amp; NumPy</text>
+      <text x="14" y="100" class="mono" font-size="9" fill="#756C82">Matrix Computations</text>
+
+      <circle cx="4" cy="120" r="3" fill="#C5B4F2" />
+      <text x="14" y="124" class="sans" font-size="12" font-weight="700" fill="#282438">LLM Architecture</text>
+      <text x="14" y="138" class="mono" font-size="9" fill="#756C82">RAG, Azure AI, Prompting</text>
+    </g>
+  </g>
+
+  <!-- Col 4: Databases & Infrastructure -->
+  <g transform="translate(648, 48)">
+    <rect x="0" y="0" width="190" height="186" rx="6" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1.2" />
+    <path d="M 0 6 C 0 2.68 2.68 0 6 0 L 184 0 C 187.31 0 190 2.68 190 6 L 190 26 L 0 26 Z" fill="#282438" />
+    <text x="12" y="17" class="mono" font-size="10" font-weight="700" fill="#E8A0BF" letter-spacing="0.5">04 // DATA &amp; DEVOPS</text>
+
+    <!-- Items -->
+    <g transform="translate(14, 42)">
+      <circle cx="4" cy="6" r="3" fill="#E8A0BF" />
+      <text x="14" y="10" class="sans" font-size="12" font-weight="700" fill="#282438">MongoDB</text>
+      <text x="14" y="24" class="mono" font-size="9" fill="#756C82">Pipelines, Document Store</text>
+
+      <circle cx="4" cy="44" r="3" fill="#B9C9BB" />
+      <text x="14" y="48" class="sans" font-size="12" font-weight="700" fill="#282438">PostgreSQL</text>
+      <text x="14" y="62" class="mono" font-size="9" fill="#756C82">Relational Schema, SQL</text>
+
+      <circle cx="4" cy="82" r="3" fill="#D9B58C" />
+      <text x="14" y="86" class="sans" font-size="12" font-weight="700" fill="#282438">Git &amp; GitHub</text>
+      <text x="14" y="100" class="mono" font-size="9" fill="#756C82">Actions, Versioning, CI</text>
+
+      <circle cx="4" cy="120" r="3" fill="#C5B4F2" />
+      <text x="14" y="124" class="sans" font-size="12" font-weight="700" fill="#282438">Docker</text>
+      <text x="14" y="138" class="mono" font-size="9" fill="#756C82">Containers, Deployment</text>
+    </g>
+  </g>
+</svg>

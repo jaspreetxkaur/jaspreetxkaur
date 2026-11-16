@@ -1,0 +1,41 @@
+name: Generate Lavender Snake Animation
+
+on:
+  schedule:
+    # Run once every 24 hours at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Lavender Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: jaspreetxkaur
+          outputs: |
+            assets/contribution-snake-lavender.svg?color_snake=#A88AE8&color_dots=#352F47,#51436D,#8471A8,#C5B4F2,#E5DDFB
+            assets/contribution-snake-light.svg?color_snake=#A88AE8&color_dots=#FAF6EE,#E5DDFB,#C5B4F2,#A88AE8,#51436D
+
+      - name: Commit and Push Updated Snake Asset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-snake-*.svg
+          if git diff --staged --quiet; then
+            echo "No changes in contribution graph"
+          else
+            git commit -m "chore(telemetry): update lavender contribution snake [skip ci]"
+            git push
+          fi

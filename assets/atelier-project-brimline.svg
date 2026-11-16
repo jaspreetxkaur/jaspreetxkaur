@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 140" width="100%" height="100%">
+  <defs>
+    <style>
+      .serif { font-family: 'Playfair Display', Georgia, serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect x="4" y="4" width="872" height="132" rx="8" fill="#1E1A2B" opacity="0.5" />
+  <rect x="0" y="0" width="872" height="132" rx="8" fill="#FDFBF7" stroke="#E8A0BF" stroke-width="1.8" />
+
+  <!-- Window Header -->
+  <path d="M 0 8 C 0 3.58 3.58 0 8 0 L 864 0 C 868.42 0 872 3.58 872 8 L 872 28 L 0 28 Z" fill="#282438" />
+  <circle cx="16" cy="14" r="3.5" fill="#F7C8DA" />
+  <circle cx="28" cy="14" r="3.5" fill="#E8A0BF" />
+  <circle cx="40" cy="14" r="3.5" fill="#B9C9BB" />
+  <text x="56" y="18" class="mono" font-size="10.5" font-weight="700" fill="#F7C8DA" letter-spacing="0.5">atelier://projects/brimline.dnn</text>
+  <text x="856" y="18" class="mono" font-size="9.5" font-weight="700" fill="#C5B4F2" text-anchor="end">[STATUS: RESEARCH IN PROGRESS]</text>
+
+  <!-- Body Content -->
+  <g transform="translate(24, 46)">
+    <text x="0" y="0" class="mono" font-size="9.5" font-weight="700" fill="#E8A0BF" letter-spacing="1">PROJECT 01 // RESEARCH &amp; DEEP LEARNING</text>
+    <text x="0" y="24" class="serif" font-size="18" font-weight="700" fill="#282438">Brimline — KV-Cache Memory &amp; Latency Forecaster</text>
+    <text x="0" y="44" class="sans" font-size="11.5" fill="#5E566B">Deep Neural Network forecasting of GPU KV-cache memory pressure and latency SLO violations during LLM inference serving.</text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="59.2" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="29.6" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">Python</text>
+      <rect x="67.2" y="0" width="66.4" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="100.4" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">PyTorch</text>
+      <rect x="141.60000000000002" y="0" width="44.8" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="164.00000000000003" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">DNNs</text>
+      <rect x="194.40000000000003" y="0" width="152.8" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="270.80000000000007" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">Telemetry Ingestion</text>
+      <rect x="355.20000000000005" y="0" width="152.8" height="18" rx="3" fill="#FAF6EE" stroke="#F7C8DA" stroke-width="1" />
+      <text x="431.6" y="12" class="mono" font-size="9" font-weight="600" fill="#282438" text-anchor="middle">Workload Simulation</text>
+    </g>
+  </g>
+</svg>
