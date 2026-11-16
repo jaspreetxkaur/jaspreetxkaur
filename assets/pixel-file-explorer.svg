@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 185" width="100%" height="100%">
+  <defs>
+    <style>
+      .term-green {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 11px;
+        font-weight: bold;
+        fill: #39d353;
+        letter-spacing: 1.2px;
+      }
+      .file-name {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 11px;
+        font-weight: bold;
+        fill: #f0f6fc;
+      }
+      .file-tag {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 10px;
+        fill: #8b949e;
+      }
+      .file-badge {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 8.5px;
+        font-weight: bold;
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="880" height="185" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Window Header -->
+  <g transform="translate(28, 22)">
+    <text x="0" y="0" class="term-green">&gt; VINTAGE_EXPLORER.sys // ACTIVE REPOSITORY ARCHIVE</text>
+    <rect x="440" y="-12" width="160" height="16" rx="3" fill="#21262d" />
+    <text x="450" y="0" font-family="'SF Mono', monospace" font-size="9" font-weight="bold" fill="#39d353">● 4 VERIFIED REPOS</text>
+  </g>
+
+  <!-- Table Header -->
+  <g transform="translate(28, 48)">
+    <rect x="0" y="0" width="824" height="22" rx="3" fill="#0d1117" />
+    <text x="14" y="15" font-family="'SF Mono', monospace" font-size="9.5" font-weight="bold" fill="#8b949e">ITEM / REPOSITORY</text>
+    <text x="280" y="15" font-family="'SF Mono', monospace" font-size="9.5" font-weight="bold" fill="#8b949e">STACK</text>
+    <text x="420" y="15" font-family="'SF Mono', monospace" font-size="9.5" font-weight="bold" fill="#8b949e">DESCRIPTION &amp; HIGHLIGHTS</text>
+    <text x="740" y="15" font-family="'SF Mono', monospace" font-size="9.5" font-weight="bold" fill="#8b949e">STATUS</text>
+  </g>
+
+  <!-- Row 1: DSA -->
+  <g transform="translate(28, 76)">
+    <text x="14" y="16" class="file-name" fill="#ff9f43">📁 DSA-Problem-Solving</text>
+    <text x="280" y="16" class="file-tag">Java · C++</text>
+    <text x="420" y="16" class="file-tag">128+ algorithmic challenges (Trees, Graphs, DP, Heaps)</text>
+    <g transform="translate(730, 2)">
+      <rect x="0" y="0" width="84" height="18" rx="3" fill="#21262d" />
+      <text x="42" y="12" class="file-badge" fill="#ff9f43" text-anchor="middle">128+ Solved</text>
+    </g>
+  </g>
+  <line x1="28" y1="102" x2="852" y2="102" stroke="#21262d" stroke-width="1" />
+
+  <!-- Row 2: Fake News -->
+  <g transform="translate(28, 108)">
+    <text x="14" y="16" class="file-name" fill="#ff6b6b">📄 Fake-News-Detector</text>
+    <text x="280" y="16" class="file-tag">Python · NLP</text>
+    <text x="420" y="16" class="file-tag">NLP text classification verifying deceptive online news</text>
+    <g transform="translate(730, 2)">
+      <rect x="0" y="0" width="84" height="18" rx="3" fill="#21262d" />
+      <text x="42" y="12" class="file-badge" fill="#ff6b6b" text-anchor="middle">94% Accuracy</text>
+    </g>
+  </g>
+  <line x1="28" y1="130" x2="852" y2="130" stroke="#21262d" stroke-width="1" />
+
+  <!-- Row 3: Netflix -->
+  <g transform="translate(28, 136)">
+    <text x="14" y="16" class="file-name" fill="#e50914">📊 Netflix-Data-Analysis</text>
+    <text x="280" y="16" class="file-tag">Pandas · EDA</text>
+    <text x="420" y="16" class="file-tag">Exploratory data analysis on catalog composition &amp; releases</text>
+    <g transform="translate(730, 2)">
+      <rect x="0" y="0" width="84" height="18" rx="3" fill="#21262d" />
+      <text x="42" y="12" class="file-badge" fill="#58a6ff" text-anchor="middle">Completed</text>
+    </g>
+  </g>
+  <line x1="28" y1="158" x2="852" y2="158" stroke="#21262d" stroke-width="1" />
+
+  <!-- Row 4: Allora -->
+  <g transform="translate(28, 164)">
+    <text x="14" y="14" class="file-name" fill="#f7c8da">🌐 Allora-Chic-Fashion</text>
+    <text x="280" y="14" class="file-tag">HTML5 · CSS3</text>
+    <text x="420" y="14" class="file-tag">Responsive modern web design and editorial UI experience</text>
+    <g transform="translate(730, 0)">
+      <rect x="0" y="0" width="84" height="18" rx="3" fill="#21262d" />
+      <text x="42" y="12" class="file-badge" fill="#f7c8da" text-anchor="middle">Web Layout</text>
+    </g>
+  </g>
+</svg>

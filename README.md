@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- ANIMATED LOFI PIXEL ROOM (MOVING CAT, FLICKERING LIGHT, SCROLLING CODE) -->
+<!-- ANIMATED LOFI PIXEL ROOM (ALIGNED DESK, LAMP TOGGLE, WALKING CAT, SCROLLING CODE) -->
 <img src="./assets/pixel-room.gif" alt="Jaspreet Kaur — Animated Pixel Room" width="100%" />
 
 <br/><br/>
@@ -16,7 +16,7 @@
 
 <br/>
 
-<!-- RETRO DEVELOPER PASSPORT / ABOUT CARD (WITH PROGRESSIVE SCRATCH REVEAL AVATAR) -->
+<!-- RETRO DEVELOPER PASSPORT / ABOUT CARD (WITH FAST SCRATCH REVEAL AVATAR) -->
 <img src="./assets/pixel-about.svg" alt="About Jaspreet Kaur" width="100%" />
 
 <br/><br/>
@@ -41,7 +41,7 @@
 
 <br/><br/>
 
-<!-- LIVE GITHUB ACTIVITY STREAK GRAPH -->
+<!-- LIVE GITHUB ACTIVITY STREAK GRAPH (BABY PINK & DARK PINK ACCENTS) -->
 <a href="https://github.com/jaspreetxkaur">
   <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=custom&background=161B22&stroke=D63384&ring=FF94C2&fire=FF1493&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF94C2&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
 </a>
@@ -52,17 +52,24 @@
 
 ---
 
-### `> FEATURED REPOSITORIES`
+### `> FEATURED ARCHITECTURES & SCHEMATICS`
 
 <div align="center">
-  <!-- PIXEL CARDS WITH 8-BIT GLYPHS & LIVE VISUAL METERS (NO CLIPPING) -->
-  <img src="./assets/pixel-projects.svg" alt="Featured Projects Grid with Visual Meters" width="100%" />
+  <!-- INTERACTIVE ARCHITECTURE BLUEPRINTS (FLOWCHARTS & SCHEMATICS) -->
+  <img src="./assets/pixel-blueprints.svg" alt="Architecture Blueprints &amp; System Schematics" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- VINTAGE FILE EXPLORER ARCHIVE FOR SUPPORTING REPOSITORIES -->
+  <img src="./assets/pixel-file-explorer.svg" alt="Vintage File Explorer Archive" width="100%" />
 </div>
 
 <br/>
 
 <details open>
-<summary><b>[VIEW ALL 8 ACTIVE REPOSITORIES &amp; DEMOS]</b></summary>
+<summary><b>[VIEW ALL 8 VERIFIED REPOSITORY REPOSITORIES &amp; DEMOS]</b></summary>
 <br/>
 
 | Repository | Domain &amp; Stack | Architecture &amp; Highlights | Action |
