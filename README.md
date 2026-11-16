@@ -34,21 +34,16 @@
 
 <div align="center">
 
-<!-- ANIMATED STREAK SNAKE IN LIGHT BABY PINK (FULL MATRIX CRAWL) -->
+<!-- ANIMATED STREAK SNAKE IN SOFT DUSTY ROSE PINK (FULL MATRIX CRAWL) -->
 <a href="https://github.com/jaspreetxkaur">
-  <img src="./assets/pixel-streak-snake.svg" alt="Streak Snake — Light Baby Pink" width="100%" />
+  <img src="./assets/pixel-streak-snake.svg" alt="Streak Snake — Soft Dusty Rose" width="100%" />
 </a>
 
 <br/><br/>
 
-<!-- EXPANDED TALLER DAILY ACTIVITY PULSE GRAPH (LIGHT BABY PINK) -->
-<img src="./assets/pixel-activity-graph.svg" alt="Daily Activity Pulse Graph" width="100%" />
-
-<br/><br/>
-
-<!-- COMPACT LIVE GITHUB STREAK STATS (LIGHT BABY PINK THEME) -->
+<!-- LIVE GITHUB STREAK STATS (SOFT DUSTY ROSE THEME) -->
 <a href="https://github.com/jaspreetxkaur">
-  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=custom&background=161B22&stroke=FFB3C6&ring=FFC2D1&fire=FF8FAB&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFB3C6&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="62%" />
+  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=custom&background=161B22&stroke=30363D&ring=E8A0BF&fire=E8A0BF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E8A0BF&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
 </a>
 
 </div>
