@@ -67,19 +67,19 @@
 <br/>
 
 <details open>
-<summary><font color="#FFB3C6"><b>🌸 [VIEW ALL 8 VERIFIED REPOSITORIES &amp; DEMOS]</b></font></summary>
+<summary><b>[VIEW ALL 8 VERIFIED REPOSITORIES &amp; DEMOS]</b></summary>
 <br/>
 
 | Repository | Domain &amp; Stack | Architecture &amp; Highlights | Action |
 | :--- | :--- | :--- | :---: |
-| <a href="https://github.com/jaspreetxkaur/UniLLM"><font color="#FFB3C6"><b>UniLLM</b></font></a> | `AI Gateway` · `Node` · `MongoDB` | Multi-tenant AI router across OpenAI, Gemini &amp; Anthropic with streaming &amp; RBAC | <a href="https://github.com/jaspreetxkaur/UniLLM"><font color="#FFC2D1">📦 View Code</font></a> |
-| <a href="https://github.com/jaspreetxkaur/CareerForge-AI"><font color="#FFB3C6"><b>CareerForge-AI</b></font></a> | `Speech AI` · `Python` · `Azure AI` · `RAG` | AI placement companion with automated resume scoring, placement RAG &amp; voice interviews | <a href="https://github.com/jaspreetxkaur/CareerForge-AI"><font color="#FFC2D1">📦 Code</font></a> · <a href="https://career-forge-ai-navy.vercel.app/"><font color="#39D353">🚀 Demo</font></a> |
-| <a href="https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast"><font color="#FFB3C6"><b>BrimLine — KV-Cache</b></font></a> | `Deep Learning` · `PyTorch` · `DNNs` | Forecasting KV-cache memory pressure and latency SLO violations in LLM serving | <a href="https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast"><font color="#FFD166">⚡ View Code</font></a> |
-| <a href="https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model"><font color="#FFB3C6"><b>AI Demand Forecasting</b></font></a> | `ML Systems` · `XGBoost` · `Pandas` | Time-series ML system forecasting retail demand curves and predicting stockout risks | <a href="https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model"><font color="#FFC2D1">📦 View Code</font></a> |
-| <a href="https://github.com/jaspreetxkaur/DSA-Problem-Solving"><font color="#FFB3C6"><b>DSA-Problem-Solving</b></font></a> | `Algorithms` · `Java` · `C++` | 128+ algorithmic challenges solved with clean implementations in Trees, Graphs &amp; DP | <a href="https://github.com/jaspreetxkaur/DSA-Problem-Solving"><font color="#39D353">🌲 128+ Solved</font></a> |
-| <a href="https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector"><font color="#FFB3C6"><b>Fake News Detector</b></font></a> | `NLP` · `Python` · `Scikit-learn` | Natural language processing pipeline classifying and detecting deceptive online articles | <a href="https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector"><font color="#FFC2D1">📦 View Code</font></a> |
-| <a href="https://github.com/jaspreetxkaur/Netflix-Data-Analysis"><font color="#FFB3C6"><b>Netflix Data Analysis</b></font></a> | `Data Science` · `Python` · `Pandas` | Exploratory data analysis uncovering global content trends, genre distributions &amp; release cycles | <a href="https://github.com/jaspreetxkaur/Netflix-Data-Analysis"><font color="#FFC2D1">📊 Insights</font></a> |
-| <a href="https://github.com/jaspreetxkaur/Allora---The-essence-of-chic"><font color="#FFB3C6"><b>Allora Fashion Web</b></font></a> | `Frontend Web` · `HTML5` · `CSS3` | Clean, responsive modern web design and editorial user interface | <a href="https://github.com/jaspreetxkaur/Allora---The-essence-of-chic"><font color="#C5B4F2">✨ View Code</font></a> |
+| [**UniLLM**](https://github.com/jaspreetxkaur/UniLLM) | `AI Gateway` · `Node` · `Express` · `MongoDB` | Multi-tenant AI router across OpenAI, Gemini &amp; Anthropic with streaming &amp; RBAC | [📦 View Code](https://github.com/jaspreetxkaur/UniLLM) |
+| [**CareerForge-AI**](https://github.com/jaspreetxkaur/CareerForge-AI) | `AI Application` · `Python` · `Azure AI` · `RAG` | AI placement companion with automated resume scoring, placement RAG &amp; voice interviews | [📦 Code](https://github.com/jaspreetxkaur/CareerForge-AI) · [🚀 Live Demo](https://career-forge-ai-navy.vercel.app/) |
+| [**BrimLine — KV-Cache**](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast) | `Deep Learning` · `PyTorch` · `DNNs` | Forecasting KV-cache memory pressure and latency SLO violations in LLM serving | [⚡ View Code](https://github.com/jaspreetxkaur/BrimLine--KV-Cache-forecast) `[In Progress]` |
+| [**AI Demand Forecasting**](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model) | `Machine Learning` · `XGBoost` · `Pandas` | Time-series ML system forecasting retail demand curves and predicting stockout risks | [📦 View Code](https://github.com/jaspreetxkaur/AI-powered-Demand-Forecasting-Model) |
+| [**DSA-Problem-Solving**](https://github.com/jaspreetxkaur/DSA-Problem-Solving) | `Algorithms` · `Java` · `C++` | Comprehensive algorithmic problem-solving repository with clean solutions in Trees, Graphs &amp; DP | [📦 View Code](https://github.com/jaspreetxkaur/DSA-Problem-Solving) |
+| [**Fake News Detector**](https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector) | `NLP` · `Python` · `Scikit-learn` | Natural language processing pipeline classifying and detecting deceptive online articles | [📦 View Code](https://github.com/jaspreetxkaur/AI-Powered-Fake-News-Detector) |
+| [**Netflix Data Analysis**](https://github.com/jaspreetxkaur/Netflix-Data-Analysis) | `Data Science` · `Python` · `Pandas` | Exploratory data analysis uncovering global content trends, genre distributions &amp; release cycles | [📦 View Code](https://github.com/jaspreetxkaur/Netflix-Data-Analysis) |
+| [**Allora Fashion Web**](https://github.com/jaspreetxkaur/Allora---The-essence-of-chic) | `Frontend Web` · `HTML5` · `CSS3` · `JS` | Clean, responsive modern web design and editorial user interface | [📦 View Code](https://github.com/jaspreetxkaur/Allora---The-essence-of-chic) |
 
 </details>
 
