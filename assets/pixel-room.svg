@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="100%" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      .pixel-font {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 10px;
+        letter-spacing: 1px;
+      }
+      .code-font {
+        font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, monospace;
+        font-size: 9px;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+
+  <!-- ================= ROOM WALLPAPER (Dark Blue Striped) ================= -->
+  <rect x="0" y="0" width="880" height="260" fill="#1b2438" />
+  
+  <!-- Vertical Wallpaper Stripes -->
+  <g fill="#161d2e">
+    <rect x="0" y="0" width="20" height="260" />
+    <rect x="40" y="0" width="20" height="260" />
+    <rect x="80" y="0" width="20" height="260" />
+    <rect x="120" y="0" width="20" height="260" />
+    <rect x="160" y="0" width="20" height="260" />
+    <rect x="200" y="0" width="20" height="260" />
+    <rect x="240" y="0" width="20" height="260" />
+    <rect x="280" y="0" width="20" height="260" />
+    <rect x="320" y="0" width="20" height="260" />
+    <rect x="360" y="0" width="20" height="260" />
+    <rect x="400" y="0" width="20" height="260" />
+    <rect x="440" y="0" width="20" height="260" />
+    <rect x="480" y="0" width="20" height="260" />
+    <rect x="520" y="0" width="20" height="260" />
+    <rect x="560" y="0" width="20" height="260" />
+    <rect x="600" y="0" width="20" height="260" />
+    <rect x="640" y="0" width="20" height="260" />
+    <rect x="680" y="0" width="20" height="260" />
+    <rect x="720" y="0" width="20" height="260" />
+    <rect x="760" y="0" width="20" height="260" />
+    <rect x="800" y="0" width="20" height="260" />
+    <rect x="840" y="0" width="20" height="260" />
+  </g>
+
+  <!-- Baseboard Trim -->
+  <rect x="0" y="254" width="880" height="6" fill="#101522" />
+
+  <!-- ================= WOODEN FLOOR ================= -->
+  <rect x="0" y="260" width="880" height="80" fill="#4a3328" />
+  <rect x="0" y="260" width="880" height="4" fill="#38251c" />
+  <!-- Floor Planks -->
+  <line x1="0" y1="286" x2="880" y2="286" stroke="#3b281f" stroke-width="2" />
+  <line x1="0" y1="312" x2="880" y2="312" stroke="#3b281f" stroke-width="2" />
+  <!-- Plank seams -->
+  <line x1="140" y1="260" x2="140" y2="286" stroke="#3b281f" stroke-width="2" />
+  <line x1="420" y1="260" x2="420" y2="286" stroke="#3b281f" stroke-width="2" />
+  <line x1="710" y1="260" x2="710" y2="286" stroke="#3b281f" stroke-width="2" />
+  <line x1="280" y1="286" x2="280" y2="312" stroke="#3b281f" stroke-width="2" />
+  <line x1="560" y1="286" x2="560" y2="312" stroke="#3b281f" stroke-width="2" />
+  <line x1="840" y1="286" x2="840" y2="312" stroke="#3b281f" stroke-width="2" />
+  <line x1="180" y1="312" x2="180" y2="340" stroke="#3b281f" stroke-width="2" />
+  <line x1="480" y1="312" x2="480" y2="340" stroke="#3b281f" stroke-width="2" />
+
+  <!-- ================= LEFT: PIXEL WINDOW (Rajpura Weather) ================= -->
+  <g transform="translate(80, 50)">
+    <!-- Outer Frame Drop Shadow -->
+    <rect x="4" y="4" width="180" height="150" fill="#0d111a" />
+    <!-- Outer White Frame -->
+    <rect x="0" y="0" width="180" height="150" fill="#ffffff" />
+    <rect x="6" y="6" width="168" height="138" fill="#1b2438" />
+    
+    <!-- Window Sky -->
+    <rect x="12" y="12" width="72" height="60" fill="#4a90e2" />
+    <rect x="96" y="12" width="72" height="60" fill="#4a90e2" />
+    <rect x="12" y="78" width="72" height="60" fill="#4a90e2" />
+    <rect x="96" y="78" width="72" height="60" fill="#4a90e2" />
+
+    <!-- Pixel Sun in Top-Right Pane -->
+    <g transform="translate(122, 22)">
+      <rect x="6" y="0" width="16" height="4" fill="#f5a623" />
+      <rect x="2" y="4" width="24" height="4" fill="#f5a623" />
+      <rect x="0" y="8" width="28" height="16" fill="#f5a623" />
+      <rect x="2" y="24" width="24" height="4" fill="#f5a623" />
+      <rect x="6" y="28" width="16" height="4" fill="#f5a623" />
+      <!-- Inner Glow -->
+      <rect x="6" y="8" width="16" height="16" fill="#ffd15c" />
+    </g>
+
+    <!-- Pixel Cloud in Top-Left Pane -->
+    <g transform="translate(26, 26)" fill="#ffffff">
+      <rect x="12" y="0" width="16" height="4" />
+      <rect x="6" y="4" width="28" height="4" />
+      <rect x="0" y="8" width="40" height="6" />
+    </g>
+
+    <!-- Pixel Cloud in Bottom-Left Pane -->
+    <g transform="translate(20, 96)" fill="#ffffff" opacity="0.85">
+      <rect x="8" y="0" width="20" height="4" />
+      <rect x="0" y="4" width="36" height="6" />
+    </g>
+
+    <!-- Window Sill Bottom -->
+    <rect x="-8" y="150" width="196" height="8" fill="#ffffff" />
+    <rect x="-8" y="156" width="196" height="4" fill="#d3d9e2" />
+  </g>
+
+  <!-- ================= MARQUEE SIGN: "JASPREET KAUR" ================= -->
+  <g transform="translate(300, 40)">
+    <!-- Shadow -->
+    <rect x="4" y="4" width="310" height="40" fill="#0c1017" />
+    <!-- White Signboard -->
+    <rect x="0" y="0" width="310" height="40" fill="#ffffff" stroke="#111111" stroke-width="3" />
+    <!-- Text -->
+    <text x="155" y="26" class="pixel-font" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle" letter-spacing="2">JASPREET KAUR</text>
+  </g>
+
+  <!-- ================= RIGHT: WALL SHELVES & CLOCK ================= -->
+  <!-- Pixel Clock -->
+  <g transform="translate(720, 40)">
+    <circle cx="24" cy="24" r="24" fill="#ffffff" stroke="#111111" stroke-width="3" />
+    <!-- Hour marks -->
+    <rect x="22" y="4" width="4" height="4" fill="#111111" />
+    <rect x="22" y="40" width="4" height="4" fill="#111111" />
+    <rect x="4" y="22" width="4" height="4" fill="#111111" />
+    <rect x="40" y="22" width="4" height="4" fill="#111111" />
+    <!-- Hands showing ~1:45 -->
+    <line x1="24" y1="24" x2="34" y2="14" stroke="#111111" stroke-width="3" stroke-linecap="round" />
+    <line x1="24" y1="24" x2="10" y2="24" stroke="#111111" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="24" cy="24" r="2.5" fill="#e74c3c" />
+  </g>
+
+  <!-- Top Shelf with Books -->
+  <g transform="translate(670, 110)">
+    <!-- Wooden Shelf -->
+    <rect x="0" y="28" width="160" height="8" fill="#7d5238" />
+    <rect x="0" y="34" width="160" height="3" fill="#543725" />
+    <rect x="15" y="36" width="12" height="18" fill="#402a1c" />
+    <rect x="135" y="36" width="12" height="18" fill="#402a1c" />
+
+    <!-- Colorful Books (Languages) -->
+    <!-- Orange Book (Java) -->
+    <rect x="20" y="0" width="14" height="28" fill="#e67e22" />
+    <rect x="20" y="2" width="14" height="3" fill="#f39c12" />
+    <rect x="22" y="6" width="10" height="18" fill="#d35400" />
+
+    <!-- Yellow Book (JavaScript) -->
+    <rect x="37" y="4" width="14" height="24" fill="#f1c40f" />
+    <rect x="37" y="6" width="14" height="2" fill="#f39c12" />
+
+    <!-- Cyan/Blue Book (Python) -->
+    <rect x="54" y="0" width="12" height="28" fill="#3498db" />
+    <rect x="56" y="4" width="8" height="20" fill="#2980b9" />
+
+    <!-- Purple Book (C++) -->
+    <rect x="69" y="2" width="14" height="26" fill="#9b59b6" />
+    <rect x="71" y="6" width="10" height="18" fill="#8e44ad" />
+
+    <!-- Pink Book (SQL) -->
+    <rect x="86" y="8" width="14" height="20" fill="#e84393" />
+    <!-- Leaning Book -->
+    <g transform="translate(104, 6) rotate(15)">
+      <rect x="0" y="0" width="12" height="24" fill="#1abc9c" />
+    </g>
+  </g>
+
+  <!-- Lower Shelf -->
+  <g transform="translate(670, 180)">
+    <rect x="0" y="0" width="160" height="8" fill="#7d5238" />
+    <rect x="0" y="6" width="160" height="3" fill="#543725" />
+    <rect x="15" y="8" width="12" height="16" fill="#402a1c" />
+    <rect x="135" y="8" width="12" height="16" fill="#402a1c" />
+  </g>
+
+  <!-- ================= POTTED PLANT (Left of Desk) ================= -->
+  <g transform="translate(180, 200)">
+    <!-- Terracotta Pot -->
+    <polygon points="12,38 48,38 42,66 18,66" fill="#c0392b" />
+    <rect x="8" y="32" width="44" height="8" fill="#e74c3c" />
+    <rect x="8" y="38" width="44" height="2" fill="#962d22" />
+    <!-- Pixel Cactus/Plant -->
+    <rect x="25" y="0" width="10" height="32" fill="#27ae60" />
+    <rect x="12" y="10" width="13" height="6" fill="#27ae60" />
+    <rect x="12" y="4" width="6" height="8" fill="#27ae60" />
+    <rect x="35" y="16" width="14" height="6" fill="#27ae60" />
+    <rect x="43" y="10" width="6" height="8" fill="#27ae60" />
+    <!-- Highlight needles -->
+    <rect x="27" y="4" width="2" height="2" fill="#2ecc71" />
+    <rect x="29" y="14" width="2" height="2" fill="#2ecc71" />
+    <rect x="14" y="6" width="2" height="2" fill="#2ecc71" />
+    <rect x="45" y="12" width="2" height="2" fill="#2ecc71" />
+  </g>
+
+  <!-- ================= COMPUTER DESK & SETUP ================= -->
+  <g transform="translate(290, 115)">
+    <!-- Desk Chair (Behind Desk) -->
+    <g transform="translate(160, 40)">
+      <rect x="16" y="0" width="44" height="50" rx="4" fill="#2c3e50" />
+      <rect x="20" y="4" width="36" height="42" fill="#34495e" />
+      <rect x="34" y="50" width="8" height="60" fill="#1a252f" />
+      <line x1="16" y1="110" x2="60" y2="110" stroke="#1a252f" stroke-width="5" />
+    </g>
+
+    <!-- Wooden Desk Surface -->
+    <rect x="0" y="85" width="330" height="14" fill="#7d5238" />
+    <rect x="0" y="96" width="330" height="5" fill="#543725" />
+    <!-- Desk Legs -->
+    <rect x="20" y="99" width="14" height="55" fill="#543725" />
+    <rect x="296" y="99" width="14" height="55" fill="#543725" />
+
+    <!-- Desk Lamp (Yellow Anglepoise) -->
+    <g transform="translate(15, 10)">
+      <rect x="8" y="70" width="20" height="5" fill="#111111" />
+      <!-- Lamp Stand -->
+      <line x1="18" y1="70" x2="28" y2="35" stroke="#111111" stroke-width="3" />
+      <line x1="28" y1="35" x2="38" y2="15" stroke="#111111" stroke-width="3" />
+      <!-- Lamp Head (Glowing) -->
+      <polygon points="32,8 54,18 42,32 24,18" fill="#f1c40f" />
+      <polygon points="36,12 50,18 42,28 30,18" fill="#ffd54f" />
+    </g>
+
+    <!-- Main Computer Monitor -->
+    <g transform="translate(75, 5)">
+      <!-- Monitor Stand -->
+      <rect x="80" y="66" width="16" height="18" fill="#1a252f" />
+      <rect x="66" y="82" width="44" height="4" fill="#2c3e50" />
+
+      <!-- Monitor Frame -->
+      <rect x="0" y="0" width="180" height="70" rx="3" fill="#111111" />
+      <!-- Monitor Screen (Dark Terminal) -->
+      <rect x="4" y="4" width="172" height="62" fill="#0f1724" />
+
+      <!-- Terminal Content (git log oneline) -->
+      <text x="10" y="15" class="code-font" fill="#00e676">$ git log --oneline</text>
+      <text x="10" y="27" class="code-font" fill="#ffd15c">BrimLine-KV-C: <tspan fill="#e2e8f0">Initial commit</tspan></text>
+      <text x="10" y="38" class="code-font" fill="#00e676">DSA-Problem-So: <tspan fill="#e2e8f0">Add topic-wise DSA</tspan></text>
+      <text x="10" y="49" class="code-font" fill="#00e676">UniLLM-Gateway: <tspan fill="#e2e8f0">Multi-tenant router</tspan></text>
+      <text x="10" y="60" class="code-font" fill="#00e676">CareerForge-AI: <tspan fill="#e2e8f0">Placement RAG</tspan></text>
+    </g>
+
+    <!-- Keyboard & Mouse on Desk -->
+    <rect x="110" y="88" width="60" height="6" rx="1" fill="#bdc3c7" />
+    <rect x="180" y="89" width="10" height="5" rx="2" fill="#bdc3c7" />
+
+    <!-- Coffee Mug -->
+    <rect x="210" y="76" width="10" height="10" rx="1" fill="#ffffff" />
+    <rect x="218" y="78" width="4" height="6" fill="#ffffff" />
+    <!-- Steam -->
+    <path d="M 213 72 Q 215 69 213 66" stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.6" />
+  </g>
+
+  <!-- ================= SLEEPING CAT ON FLOOR (Right) ================= -->
+  <g transform="translate(680, 275)">
+    <!-- Cat Body -->
+    <ellipse cx="36" cy="18" rx="24" ry="12" fill="#e67e22" />
+    <!-- Cat Head -->
+    <circle cx="16" cy="14" r="11" fill="#e67e22" />
+    <!-- Ears -->
+    <polygon points="10,6 15,2 17,8" fill="#d35400" />
+    <polygon points="18,6 23,2 24,9" fill="#d35400" />
+    <!-- Sleeping Eyes (curved arc) -->
+    <path d="M 11 15 Q 14 18 16 15" stroke="#7e3807" stroke-width="1.5" fill="none" />
+    <!-- Cat Tail curled -->
+    <path d="M 58 18 Q 66 12 62 6 Q 58 1 54 8" stroke="#e67e22" stroke-width="5" fill="none" stroke-linecap="round" />
+    <!-- White Paws & Belly Accent -->
+    <ellipse cx="26" cy="22" rx="6" ry="3" fill="#f8c291" />
+
+    <!-- Sleeping 'z Z' -->
+    <text x="6" y="2" class="pixel-font" font-size="8" fill="#f39c12">z</text>
+    <text x="0" y="-8" class="pixel-font" font-size="10" fill="#f39c12">Z</text>
+  </g>
+
+  <!-- Subtle bottom right watermark -->
+  <text x="860" y="328" class="pixel-font" font-size="7.5" fill="#845942" text-anchor="end">pixel studio // jaspreet.exe</text>
+</svg>

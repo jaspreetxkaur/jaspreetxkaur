@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="100%" height="100%">
+  <defs>
+    <style>
+      .terminal-header {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 12px;
+        font-weight: bold;
+        fill: #39d353;
+        letter-spacing: 1.5px;
+      }
+      .cat-title {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 9px;
+        font-weight: bold;
+        fill: #58a6ff;
+        letter-spacing: 1px;
+      }
+      .tag {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 11px;
+        fill: #c9d1d9;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="0" y="0" width="880" height="230" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Terminal Header -->
+  <g transform="translate(28, 24)">
+    <text x="0" y="0" class="terminal-header">&gt; TECH STACK</text>
+  </g>
+
+  <!-- Row 1: Languages, Frontend, Backend -->
+  <g transform="translate(28, 52)">
+    <!-- Languages -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="260" height="72" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="20" class="cat-title">01 // LANGUAGES</text>
+      <text x="14" y="44" class="tag">Java · Python · C++</text>
+      <text x="14" y="60" class="tag">JavaScript · SQL</text>
+    </g>
+
+    <!-- Frontend -->
+    <g transform="translate(282, 0)">
+      <rect x="0" y="0" width="260" height="72" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="20" class="cat-title">02 // FRONTEND</text>
+      <text x="14" y="44" class="tag">HTML5 · CSS3 · React</text>
+      <text x="14" y="60" class="tag">JavaScript · UI Design</text>
+    </g>
+
+    <!-- Backend -->
+    <g transform="translate(564, 0)">
+      <rect x="0" y="0" width="260" height="72" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="20" class="cat-title">03 // BACKEND</text>
+      <text x="14" y="44" class="tag">Node.js · Express · FastAPI</text>
+      <text x="14" y="60" class="tag">Django · REST APIs · RBAC</text>
+    </g>
+  </g>
+
+  <!-- Row 2: Databases, AI/ML, Tools & Cloud -->
+  <g transform="translate(28, 138)">
+    <!-- Databases -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="260" height="72" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="20" class="cat-title">04 // DATABASES</text>
+      <text x="14" y="44" class="tag">MongoDB · Supabase</text>
+      <text x="14" y="60" class="tag">SQLite · SQL Querying</text>
+    </g>
+
+    <!-- AI & ML -->
+    <g transform="translate(282, 0)">
+      <rect x="0" y="0" width="260" height="72" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="20" class="cat-title">05 // AI &amp; MACHINE LEARNING</text>
+      <text x="14" y="44" class="tag">PyTorch · Scikit-learn · Pandas</text>
+      <text x="14" y="60" class="tag">NumPy · NLP · RAG · LLM APIs</text>
+    </g>
+
+    <!-- Tools & Cloud -->
+    <g transform="translate(564, 0)">
+      <rect x="0" y="0" width="260" height="72" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="20" class="cat-title">06 // TOOLS &amp; CLOUD</text>
+      <text x="14" y="44" class="tag">Git · GitHub · Postman · VS Code</text>
+      <text x="14" y="60" class="tag">Microsoft Azure · AWS</text>
+    </g>
+  </g>
+</svg>
