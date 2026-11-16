@@ -16,7 +16,7 @@
 
 <br/>
 
-<!-- RETRO DEVELOPER PASSPORT / ABOUT CARD -->
+<!-- RETRO DEVELOPER PASSPORT / ABOUT CARD (WITH PROGRESSIVE SCRATCH REVEAL AVATAR) -->
 <img src="./assets/pixel-about.svg" alt="About Jaspreet Kaur" width="100%" />
 
 <br/><br/>
@@ -34,15 +34,17 @@
 
 <div align="center">
 
-<!-- LIVE GITHUB STREAK STATS -->
+<!-- FAST STREAK SNAKE (BABY PINK & DARK PINK) -->
 <a href="https://github.com/jaspreetxkaur">
-  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=dark&background=161B22&stroke=30363D&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=F0F6FC&currStreakLabel=39D353&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
+  <img src="./assets/pixel-streak-snake.svg" alt="Fast Streak Snake — Baby Pink &amp; Dark Pink" width="100%" />
 </a>
 
 <br/><br/>
 
-<!-- RETRO CONTRIBUTION HEATMAP -->
-<img src="./assets/pixel-activity.svg" alt="Contribution Activity &amp; Heatmap" width="100%" />
+<!-- LIVE GITHUB ACTIVITY STREAK GRAPH -->
+<a href="https://github.com/jaspreetxkaur">
+  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=custom&background=161B22&stroke=D63384&ring=FF94C2&fire=FF1493&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF94C2&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
+</a>
 
 </div>
 
@@ -53,7 +55,7 @@
 ### `> FEATURED REPOSITORIES`
 
 <div align="center">
-  <!-- PIXEL CARDS WITH 8-BIT GLYPHS & LIVE VISUAL METERS -->
+  <!-- PIXEL CARDS WITH 8-BIT GLYPHS & LIVE VISUAL METERS (NO CLIPPING) -->
   <img src="./assets/pixel-projects.svg" alt="Featured Projects Grid with Visual Meters" width="100%" />
 </div>
 
@@ -80,11 +82,11 @@
 
 ---
 
-### `> TECH STACK & CORE ARSENAL`
+### `> TECH STACK & FLOATING MODULES`
 
 <div align="center">
-  <!-- CYBER MATRIX ARSENAL -->
-  <img src="./assets/pixel-stack.svg" alt="Technologies &amp; Frameworks" width="100%" />
+  <!-- FLOATING ICONS MATRIX (ICONS DRIFTING SLOWLY IN BOXES) -->
+  <img src="./assets/pixel-floating-stack.svg" alt="Technologies &amp; Floating Modules" width="100%" />
 </div>
 
 <br/>
@@ -112,21 +114,10 @@
 
 ---
 
-### `> SYSTEM TELEMETRY & LAB RADAR`
-
-<div align="center">
-  <!-- ACTIVE LAB RADAR & ALGORITHMIC METRICS -->
-  <img src="./assets/pixel-radar.svg" alt="System Telemetry &amp; Lab Radar" width="100%" />
-</div>
-
-<br/>
-
----
-
 ### `> GITHUB ACHIEVEMENTS & MILESTONES`
 
 <div align="center">
-  <!-- RETRO ARCADE TROPHY SHELF -->
+  <!-- CLEAN METALLIC TROPHY SHELF (NO GREEN GRADIENT) -->
   <img src="./assets/github-achievements.svg" alt="GitHub Achievements &amp; Milestones" width="100%" />
 </div>
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 366" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="100%" height="100%">
   <defs>
     <style>
       .proj-title {
@@ -9,22 +9,22 @@
       }
       .proj-desc {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        font-size: 11px;
+        font-size: 10.5px;
         fill: #8b949e;
       }
       .proj-meter {
         font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
-        font-size: 9px;
+        font-size: 8.5px;
         font-weight: bold;
       }
       .proj-meta {
         font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
-        font-size: 10px;
+        font-size: 9.5px;
         fill: #8b949e;
       }
       .badge {
         font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
-        font-size: 9px;
+        font-size: 8.5px;
         font-weight: bold;
         fill: #58a6ff;
       }
@@ -33,7 +33,8 @@
 
   
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="432" height="106" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+      <!-- Card Container -->
+      <rect x="0" y="0" width="432" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
       
       <!-- Left 8-bit Glyph Box -->
       <g transform="translate(14, 18)">
@@ -41,32 +42,35 @@
         <rect x="7" y="7" width="6" height="6" fill="#f1c40f" />\n<rect x="21" y="7" width="6" height="6" fill="#f1c40f" />\n<rect x="28" y="7" width="6" height="6" fill="#f1c40f" />\n<rect x="42" y="7" width="6" height="6" fill="#f1c40f" />\n<rect x="14" y="14" width="6" height="6" fill="#f1c40f" />\n<rect x="21" y="14" width="6" height="6" fill="#f1c40f" />\n<rect x="28" y="14" width="6" height="6" fill="#f1c40f" />\n<rect x="35" y="14" width="6" height="6" fill="#f1c40f" />\n<rect x="7" y="21" width="6" height="6" fill="#f1c40f" />\n<rect x="14" y="21" width="6" height="6" fill="#f1c40f" />\n<rect x="35" y="21" width="6" height="6" fill="#f1c40f" />\n<rect x="42" y="21" width="6" height="6" fill="#f1c40f" />\n<rect x="7" y="28" width="6" height="6" fill="#f1c40f" />\n<rect x="14" y="28" width="6" height="6" fill="#f1c40f" />\n<rect x="21" y="28" width="6" height="6" fill="#f1c40f" />\n<rect x="28" y="28" width="6" height="6" fill="#f1c40f" />\n<rect x="35" y="28" width="6" height="6" fill="#f1c40f" />\n<rect x="42" y="28" width="6" height="6" fill="#f1c40f" />\n<rect x="14" y="35" width="6" height="6" fill="#f1c40f" />\n<rect x="35" y="35" width="6" height="6" fill="#f1c40f" />\n<rect x="7" y="42" width="6" height="6" fill="#f1c40f" />\n<rect x="21" y="42" width="6" height="6" fill="#f1c40f" />\n<rect x="28" y="42" width="6" height="6" fill="#f1c40f" />\n<rect x="42" y="42" width="6" height="6" fill="#f1c40f" />
       </g>
 
-      <!-- Right Project Info -->
+      <!-- Right Project Info (Clean 2-line wrapped text) -->
       <g transform="translate(82, 16)">
         <text x="0" y="14" class="proj-title">UniLLM</text>
-        <text x="0" y="32" class="proj-desc">Multi-tenant AI gateway routing across OpenAI, Gemini &amp; Anthropic.</text>
+        
+        <text x="0" y="32" class="proj-desc">Multi-tenant AI gateway routing requests</text>
+        <text x="0" y="46" class="proj-desc">dynamically across OpenAI, Gemini &amp; Claude.</text>
 
-        <!-- Visual Meter / Telemetry Strip -->
-        <g transform="translate(0, 48)">
-          <rect x="0" y="0" width="336" height="16" rx="3" fill="#0d1117" />
-          <text x="8" y="11" class="proj-meter" fill="#f1c40f">GATEWAY: ROUTER ACTIVE · SSE STREAMING</text>
+        <!-- Visual Meter Strip -->
+        <g transform="translate(0, 56)">
+          <rect x="0" y="0" width="336" height="15" rx="3" fill="#0d1117" />
+          <text x="8" y="11" class="proj-meter" fill="#f1c40f">ROUTER ACTIVE · SSE STREAMING ⚡</text>
         </g>
         
         <!-- Bottom Language & Status -->
-        <g transform="translate(0, 78)">
+        <g transform="translate(0, 84)">
           <circle cx="5" cy="5" r="4" fill="#f1c40f" />
-          <text x="14" y="8" class="proj-meta">JavaScript · Node</text>
+          <text x="14" y="8" class="proj-meta">JavaScript</text>
 
-          <g transform="translate(240, -9)">
-            <rect x="0" y="0" width="112" height="16" rx="3" fill="#21262d" />
-            <text x="56.0" y="11" class="badge" text-anchor="middle">Active Gateway</text>
+          <g transform="translate(255, -9)">
+            <rect x="0" y="0" width="54" height="16" rx="3" fill="#21262d" />
+            <text x="27.0" y="11" class="badge" text-anchor="middle">Active</text>
           </g>
         </g>
       </g>
     </g>
     
     <g transform="translate(448, 0)">
-      <rect x="0" y="0" width="432" height="106" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+      <!-- Card Container -->
+      <rect x="0" y="0" width="432" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
       
       <!-- Left 8-bit Glyph Box -->
       <g transform="translate(14, 18)">
@@ -74,32 +78,35 @@
         <rect x="14" y="7" width="6" height="6" fill="#00d2d3" />\n<rect x="21" y="7" width="6" height="6" fill="#00d2d3" />\n<rect x="28" y="7" width="6" height="6" fill="#00d2d3" />\n<rect x="35" y="7" width="6" height="6" fill="#00d2d3" />\n<rect x="7" y="14" width="6" height="6" fill="#00d2d3" />\n<rect x="14" y="14" width="6" height="6" fill="#00d2d3" />\n<rect x="35" y="14" width="6" height="6" fill="#00d2d3" />\n<rect x="42" y="14" width="6" height="6" fill="#00d2d3" />\n<rect x="7" y="21" width="6" height="6" fill="#00d2d3" />\n<rect x="21" y="21" width="6" height="6" fill="#00d2d3" />\n<rect x="28" y="21" width="6" height="6" fill="#00d2d3" />\n<rect x="42" y="21" width="6" height="6" fill="#00d2d3" />\n<rect x="7" y="28" width="6" height="6" fill="#00d2d3" />\n<rect x="14" y="28" width="6" height="6" fill="#00d2d3" />\n<rect x="21" y="28" width="6" height="6" fill="#00d2d3" />\n<rect x="28" y="28" width="6" height="6" fill="#00d2d3" />\n<rect x="35" y="28" width="6" height="6" fill="#00d2d3" />\n<rect x="42" y="28" width="6" height="6" fill="#00d2d3" />\n<rect x="14" y="35" width="6" height="6" fill="#00d2d3" />\n<rect x="21" y="35" width="6" height="6" fill="#00d2d3" />\n<rect x="28" y="35" width="6" height="6" fill="#00d2d3" />\n<rect x="35" y="35" width="6" height="6" fill="#00d2d3" />\n<rect x="7" y="42" width="6" height="6" fill="#00d2d3" />\n<rect x="42" y="42" width="6" height="6" fill="#00d2d3" />
       </g>
 
-      <!-- Right Project Info -->
+      <!-- Right Project Info (Clean 2-line wrapped text) -->
       <g transform="translate(82, 16)">
         <text x="0" y="14" class="proj-title">CareerForge-AI</text>
-        <text x="0" y="32" class="proj-desc">AI placement companion with RAG pipeline and speech mock interviews.</text>
+        
+        <text x="0" y="32" class="proj-desc">AI placement companion with resume scoring</text>
+        <text x="0" y="46" class="proj-desc">and Azure speech mock interviews.</text>
 
-        <!-- Visual Meter / Telemetry Strip -->
-        <g transform="translate(0, 48)">
-          <rect x="0" y="0" width="336" height="16" rx="3" fill="#0d1117" />
-          <text x="8" y="11" class="proj-meter" fill="#00d2d3">SPEECH AI: ▃▅▇▅▃ · LIVE VERCEL DEMO 🚀</text>
+        <!-- Visual Meter Strip -->
+        <g transform="translate(0, 56)">
+          <rect x="0" y="0" width="336" height="15" rx="3" fill="#0d1117" />
+          <text x="8" y="11" class="proj-meter" fill="#00d2d3">SPEECH AI: ▃▅▇▅▃ · LIVE VERCEL 🚀</text>
         </g>
         
         <!-- Bottom Language & Status -->
-        <g transform="translate(0, 78)">
+        <g transform="translate(0, 84)">
           <circle cx="5" cy="5" r="4" fill="#00d2d3" />
-          <text x="14" y="8" class="proj-meta">Python · Azure AI</text>
+          <text x="14" y="8" class="proj-meta">Python · Azure</text>
 
-          <g transform="translate(240, -9)">
-            <rect x="0" y="0" width="77" height="16" rx="3" fill="#21262d" />
-            <text x="38.5" y="11" class="badge" text-anchor="middle">Live Demo</text>
+          <g transform="translate(255, -9)">
+            <rect x="0" y="0" width="75" height="16" rx="3" fill="#21262d" />
+            <text x="37.5" y="11" class="badge" text-anchor="middle">Live Demo</text>
           </g>
         </g>
       </g>
     </g>
     
-    <g transform="translate(0, 118)">
-      <rect x="0" y="0" width="432" height="106" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+    <g transform="translate(0, 122)">
+      <!-- Card Container -->
+      <rect x="0" y="0" width="432" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
       
       <!-- Left 8-bit Glyph Box -->
       <g transform="translate(14, 18)">
@@ -107,32 +114,35 @@
         <rect x="7" y="7" width="6" height="6" fill="#a55eea" />\n<rect x="14" y="7" width="6" height="6" fill="#a55eea" />\n<rect x="35" y="7" width="6" height="6" fill="#a55eea" />\n<rect x="42" y="7" width="6" height="6" fill="#a55eea" />\n<rect x="14" y="14" width="6" height="6" fill="#a55eea" />\n<rect x="21" y="14" width="6" height="6" fill="#a55eea" />\n<rect x="28" y="14" width="6" height="6" fill="#a55eea" />\n<rect x="35" y="14" width="6" height="6" fill="#a55eea" />\n<rect x="7" y="21" width="6" height="6" fill="#a55eea" />\n<rect x="14" y="21" width="6" height="6" fill="#a55eea" />\n<rect x="21" y="21" width="6" height="6" fill="#a55eea" />\n<rect x="28" y="21" width="6" height="6" fill="#a55eea" />\n<rect x="35" y="21" width="6" height="6" fill="#a55eea" />\n<rect x="42" y="21" width="6" height="6" fill="#a55eea" />\n<rect x="14" y="28" width="6" height="6" fill="#a55eea" />\n<rect x="35" y="28" width="6" height="6" fill="#a55eea" />\n<rect x="7" y="35" width="6" height="6" fill="#a55eea" />\n<rect x="14" y="35" width="6" height="6" fill="#a55eea" />\n<rect x="21" y="35" width="6" height="6" fill="#a55eea" />\n<rect x="28" y="35" width="6" height="6" fill="#a55eea" />\n<rect x="35" y="35" width="6" height="6" fill="#a55eea" />\n<rect x="42" y="35" width="6" height="6" fill="#a55eea" />\n<rect x="7" y="42" width="6" height="6" fill="#a55eea" />\n<rect x="21" y="42" width="6" height="6" fill="#a55eea" />\n<rect x="28" y="42" width="6" height="6" fill="#a55eea" />\n<rect x="42" y="42" width="6" height="6" fill="#a55eea" />
       </g>
 
-      <!-- Right Project Info -->
+      <!-- Right Project Info (Clean 2-line wrapped text) -->
       <g transform="translate(82, 16)">
         <text x="0" y="14" class="proj-title">BrimLine-KV-Cache</text>
-        <text x="0" y="32" class="proj-desc">DNN forecasting of KV-cache pressure &amp; latency SLOs in LLM serving.</text>
+        
+        <text x="0" y="32" class="proj-desc">DNN forecasting of KV-cache memory pressure</text>
+        <text x="0" y="46" class="proj-desc">and latency SLO bounds during LLM serving.</text>
 
-        <!-- Visual Meter / Telemetry Strip -->
-        <g transform="translate(0, 48)">
-          <rect x="0" y="0" width="336" height="16" rx="3" fill="#0d1117" />
-          <text x="8" y="11" class="proj-meter" fill="#a55eea">GPU KV-CACHE: 78% · INFERENCE MONITOR</text>
+        <!-- Visual Meter Strip -->
+        <g transform="translate(0, 56)">
+          <rect x="0" y="0" width="336" height="15" rx="3" fill="#0d1117" />
+          <text x="8" y="11" class="proj-meter" fill="#a55eea">KV-CACHE: 78% · INFERENCE FORECAST</text>
         </g>
         
         <!-- Bottom Language & Status -->
-        <g transform="translate(0, 78)">
+        <g transform="translate(0, 84)">
           <circle cx="5" cy="5" r="4" fill="#a55eea" />
-          <text x="14" y="8" class="proj-meta">Python · PyTorch</text>
+          <text x="14" y="8" class="proj-meta">PyTorch · DNN</text>
 
-          <g transform="translate(240, -9)">
-            <rect x="0" y="0" width="91" height="16" rx="3" fill="#21262d" />
-            <text x="45.5" y="11" class="badge" text-anchor="middle">In Progress</text>
+          <g transform="translate(255, -9)">
+            <rect x="0" y="0" width="89" height="16" rx="3" fill="#21262d" />
+            <text x="44.5" y="11" class="badge" text-anchor="middle">In Progress</text>
           </g>
         </g>
       </g>
     </g>
     
-    <g transform="translate(448, 118)">
-      <rect x="0" y="0" width="432" height="106" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+    <g transform="translate(448, 122)">
+      <!-- Card Container -->
+      <rect x="0" y="0" width="432" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
       
       <!-- Left 8-bit Glyph Box -->
       <g transform="translate(14, 18)">
@@ -140,32 +150,35 @@
         <rect x="7" y="7" width="6" height="6" fill="#70a1ff" />\n<rect x="21" y="7" width="6" height="6" fill="#70a1ff" />\n<rect x="28" y="7" width="6" height="6" fill="#70a1ff" />\n<rect x="42" y="7" width="6" height="6" fill="#70a1ff" />\n<rect x="7" y="14" width="6" height="6" fill="#70a1ff" />\n<rect x="14" y="14" width="6" height="6" fill="#70a1ff" />\n<rect x="35" y="14" width="6" height="6" fill="#70a1ff" />\n<rect x="42" y="14" width="6" height="6" fill="#70a1ff" />\n<rect x="14" y="21" width="6" height="6" fill="#70a1ff" />\n<rect x="21" y="21" width="6" height="6" fill="#70a1ff" />\n<rect x="28" y="21" width="6" height="6" fill="#70a1ff" />\n<rect x="35" y="21" width="6" height="6" fill="#70a1ff" />\n<rect x="7" y="28" width="6" height="6" fill="#70a1ff" />\n<rect x="14" y="28" width="6" height="6" fill="#70a1ff" />\n<rect x="21" y="28" width="6" height="6" fill="#70a1ff" />\n<rect x="28" y="28" width="6" height="6" fill="#70a1ff" />\n<rect x="35" y="28" width="6" height="6" fill="#70a1ff" />\n<rect x="42" y="28" width="6" height="6" fill="#70a1ff" />\n<rect x="7" y="35" width="6" height="6" fill="#70a1ff" />\n<rect x="21" y="35" width="6" height="6" fill="#70a1ff" />\n<rect x="28" y="35" width="6" height="6" fill="#70a1ff" />\n<rect x="42" y="35" width="6" height="6" fill="#70a1ff" />\n<rect x="14" y="42" width="6" height="6" fill="#70a1ff" />\n<rect x="35" y="42" width="6" height="6" fill="#70a1ff" />
       </g>
 
-      <!-- Right Project Info -->
+      <!-- Right Project Info (Clean 2-line wrapped text) -->
       <g transform="translate(82, 16)">
         <text x="0" y="14" class="proj-title">AI-Demand-Forecasting</text>
-        <text x="0" y="32" class="proj-desc">Time-series machine learning forecasting retail demand &amp; stockouts.</text>
+        
+        <text x="0" y="32" class="proj-desc">Time-series machine learning system</text>
+        <text x="0" y="46" class="proj-desc">predicting multi-city retail stockout risks.</text>
 
-        <!-- Visual Meter / Telemetry Strip -->
-        <g transform="translate(0, 48)">
-          <rect x="0" y="0" width="336" height="16" rx="3" fill="#0d1117" />
-          <text x="8" y="11" class="proj-meter" fill="#70a1ff">MODEL: XGBOOST + RF · 10-YR MULTI-CITY 📈</text>
+        <!-- Visual Meter Strip -->
+        <g transform="translate(0, 56)">
+          <rect x="0" y="0" width="336" height="15" rx="3" fill="#0d1117" />
+          <text x="8" y="11" class="proj-meter" fill="#70a1ff">XGBOOST + RF · 10-YR MULTI-CITY 📈</text>
         </g>
         
         <!-- Bottom Language & Status -->
-        <g transform="translate(0, 78)">
+        <g transform="translate(0, 84)">
           <circle cx="5" cy="5" r="4" fill="#70a1ff" />
-          <text x="14" y="8" class="proj-meta">Python · Scikit</text>
+          <text x="14" y="8" class="proj-meta">Python · ML</text>
 
-          <g transform="translate(240, -9)">
-            <rect x="0" y="0" width="77" height="16" rx="3" fill="#21262d" />
-            <text x="38.5" y="11" class="badge" text-anchor="middle">Evaluated</text>
+          <g transform="translate(255, -9)">
+            <rect x="0" y="0" width="75" height="16" rx="3" fill="#21262d" />
+            <text x="37.5" y="11" class="badge" text-anchor="middle">Evaluated</text>
           </g>
         </g>
       </g>
     </g>
     
-    <g transform="translate(0, 236)">
-      <rect x="0" y="0" width="432" height="106" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+    <g transform="translate(0, 244)">
+      <!-- Card Container -->
+      <rect x="0" y="0" width="432" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
       
       <!-- Left 8-bit Glyph Box -->
       <g transform="translate(14, 18)">
@@ -173,32 +186,35 @@
         <rect x="14" y="7" width="6" height="6" fill="#ff9f43" />\n<rect x="21" y="7" width="6" height="6" fill="#ff9f43" />\n<rect x="28" y="7" width="6" height="6" fill="#ff9f43" />\n<rect x="35" y="7" width="6" height="6" fill="#ff9f43" />\n<rect x="7" y="14" width="6" height="6" fill="#ff9f43" />\n<rect x="14" y="14" width="6" height="6" fill="#ff9f43" />\n<rect x="21" y="14" width="6" height="6" fill="#ff9f43" />\n<rect x="28" y="14" width="6" height="6" fill="#ff9f43" />\n<rect x="35" y="14" width="6" height="6" fill="#ff9f43" />\n<rect x="42" y="14" width="6" height="6" fill="#ff9f43" />\n<rect x="7" y="21" width="6" height="6" fill="#ff9f43" />\n<rect x="21" y="21" width="6" height="6" fill="#ff9f43" />\n<rect x="28" y="21" width="6" height="6" fill="#ff9f43" />\n<rect x="42" y="21" width="6" height="6" fill="#ff9f43" />\n<rect x="14" y="28" width="6" height="6" fill="#ff9f43" />\n<rect x="21" y="28" width="6" height="6" fill="#ff9f43" />\n<rect x="28" y="28" width="6" height="6" fill="#ff9f43" />\n<rect x="35" y="28" width="6" height="6" fill="#ff9f43" />\n<rect x="7" y="35" width="6" height="6" fill="#ff9f43" />\n<rect x="14" y="35" width="6" height="6" fill="#ff9f43" />\n<rect x="35" y="35" width="6" height="6" fill="#ff9f43" />\n<rect x="42" y="35" width="6" height="6" fill="#ff9f43" />\n<rect x="7" y="42" width="6" height="6" fill="#ff9f43" />\n<rect x="21" y="42" width="6" height="6" fill="#ff9f43" />\n<rect x="28" y="42" width="6" height="6" fill="#ff9f43" />\n<rect x="42" y="42" width="6" height="6" fill="#ff9f43" />
       </g>
 
-      <!-- Right Project Info -->
+      <!-- Right Project Info (Clean 2-line wrapped text) -->
       <g transform="translate(82, 16)">
         <text x="0" y="14" class="proj-title">DSA-Problem-Solving</text>
-        <text x="0" y="32" class="proj-desc">128+ algorithmic challenges solved in Java &amp; C++ (Trees, Graphs, DP).</text>
+        
+        <text x="0" y="32" class="proj-desc">128+ algorithmic challenges solved in Java</text>
+        <text x="0" y="46" class="proj-desc">focusing on Trees, Graphs &amp; Dynamic Prog.</text>
 
-        <!-- Visual Meter / Telemetry Strip -->
-        <g transform="translate(0, 48)">
-          <rect x="0" y="0" width="336" height="16" rx="3" fill="#0d1117" />
-          <text x="8" y="11" class="proj-meter" fill="#ff9f43">LEETCODE: 128+ SOLVED · TREES/GRAPHS 🌲</text>
+        <!-- Visual Meter Strip -->
+        <g transform="translate(0, 56)">
+          <rect x="0" y="0" width="336" height="15" rx="3" fill="#0d1117" />
+          <text x="8" y="11" class="proj-meter" fill="#ff9f43">LEETCODE: 128+ SOLVED · TREES/DP 🌲</text>
         </g>
         
         <!-- Bottom Language & Status -->
-        <g transform="translate(0, 78)">
+        <g transform="translate(0, 84)">
           <circle cx="5" cy="5" r="4" fill="#ff9f43" />
           <text x="14" y="8" class="proj-meta">Java · Algorithms</text>
 
-          <g transform="translate(240, -9)">
-            <rect x="0" y="0" width="91" height="16" rx="3" fill="#21262d" />
-            <text x="45.5" y="11" class="badge" text-anchor="middle">128+ Solved</text>
+          <g transform="translate(255, -9)">
+            <rect x="0" y="0" width="89" height="16" rx="3" fill="#21262d" />
+            <text x="44.5" y="11" class="badge" text-anchor="middle">128+ Solved</text>
           </g>
         </g>
       </g>
     </g>
     
-    <g transform="translate(448, 236)">
-      <rect x="0" y="0" width="432" height="106" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+    <g transform="translate(448, 244)">
+      <!-- Card Container -->
+      <rect x="0" y="0" width="432" height="110" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
       
       <!-- Left 8-bit Glyph Box -->
       <g transform="translate(14, 18)">
@@ -206,25 +222,27 @@
         <rect x="7" y="7" width="6" height="6" fill="#ff6b6b" />\n<rect x="14" y="7" width="6" height="6" fill="#ff6b6b" />\n<rect x="21" y="7" width="6" height="6" fill="#ff6b6b" />\n<rect x="28" y="7" width="6" height="6" fill="#ff6b6b" />\n<rect x="35" y="7" width="6" height="6" fill="#ff6b6b" />\n<rect x="42" y="7" width="6" height="6" fill="#ff6b6b" />\n<rect x="7" y="14" width="6" height="6" fill="#ff6b6b" />\n<rect x="42" y="14" width="6" height="6" fill="#ff6b6b" />\n<rect x="7" y="21" width="6" height="6" fill="#ff6b6b" />\n<rect x="14" y="21" width="6" height="6" fill="#ff6b6b" />\n<rect x="35" y="21" width="6" height="6" fill="#ff6b6b" />\n<rect x="42" y="21" width="6" height="6" fill="#ff6b6b" />\n<rect x="14" y="28" width="6" height="6" fill="#ff6b6b" />\n<rect x="21" y="28" width="6" height="6" fill="#ff6b6b" />\n<rect x="28" y="28" width="6" height="6" fill="#ff6b6b" />\n<rect x="35" y="28" width="6" height="6" fill="#ff6b6b" />\n<rect x="7" y="35" width="6" height="6" fill="#ff6b6b" />\n<rect x="14" y="35" width="6" height="6" fill="#ff6b6b" />\n<rect x="21" y="35" width="6" height="6" fill="#ff6b6b" />\n<rect x="28" y="35" width="6" height="6" fill="#ff6b6b" />\n<rect x="35" y="35" width="6" height="6" fill="#ff6b6b" />\n<rect x="42" y="35" width="6" height="6" fill="#ff6b6b" />\n<rect x="14" y="42" width="6" height="6" fill="#ff6b6b" />\n<rect x="35" y="42" width="6" height="6" fill="#ff6b6b" />
       </g>
 
-      <!-- Right Project Info -->
+      <!-- Right Project Info (Clean 2-line wrapped text) -->
       <g transform="translate(82, 16)">
         <text x="0" y="14" class="proj-title">Fake-News-Detector</text>
-        <text x="0" y="32" class="proj-desc">NLP classification pipeline detecting deceptive online news articles.</text>
+        
+        <text x="0" y="32" class="proj-desc">Natural language processing classifier</text>
+        <text x="0" y="46" class="proj-desc">detecting deceptive news with 94% accuracy.</text>
 
-        <!-- Visual Meter / Telemetry Strip -->
-        <g transform="translate(0, 48)">
-          <rect x="0" y="0" width="336" height="16" rx="3" fill="#0d1117" />
-          <text x="8" y="11" class="proj-meter" fill="#ff6b6b">NLP METRIC: 94% ACCURACY ON ARTICLES 🎯</text>
+        <!-- Visual Meter Strip -->
+        <g transform="translate(0, 56)">
+          <rect x="0" y="0" width="336" height="15" rx="3" fill="#0d1117" />
+          <text x="8" y="11" class="proj-meter" fill="#ff6b6b">NLP PIPELINE: 94% ACCURACY 🎯</text>
         </g>
         
         <!-- Bottom Language & Status -->
-        <g transform="translate(0, 78)">
+        <g transform="translate(0, 84)">
           <circle cx="5" cy="5" r="4" fill="#ff6b6b" />
           <text x="14" y="8" class="proj-meta">Python · NLP</text>
 
-          <g transform="translate(240, -9)">
-            <rect x="0" y="0" width="77" height="16" rx="3" fill="#21262d" />
-            <text x="38.5" y="11" class="badge" text-anchor="middle">Completed</text>
+          <g transform="translate(255, -9)">
+            <rect x="0" y="0" width="75" height="16" rx="3" fill="#21262d" />
+            <text x="37.5" y="11" class="badge" text-anchor="middle">Completed</text>
           </g>
         </g>
       </g>

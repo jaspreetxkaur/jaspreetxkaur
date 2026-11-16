@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="100%">
+  <defs>
+    <style>
+      .term-green {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 12px;
+        font-weight: bold;
+        fill: #39d353;
+        letter-spacing: 1.5px;
+      }
+      .box-title {
+        font-family: 'Press Start 2P', 'Courier New', 'SF Mono', monospace;
+        font-size: 9px;
+        font-weight: bold;
+        fill: #58a6ff;
+        letter-spacing: 0.8px;
+      }
+      .tech-lbl {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 10px;
+        font-weight: 600;
+        fill: #c9d1d9;
+      }
+      .tech-sub {
+        font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;
+        font-size: 8.5px;
+        fill: #8b949e;
+      }
+
+      /* Smooth, gentle floating keyframes for icons */
+      @keyframes drift-a {
+        0%, 100% { transform: translate(0px, 0px) rotate(0deg); }
+        33% { transform: translate(3px, -4px) rotate(1deg); }
+        66% { transform: translate(-3px, 3px) rotate(-1deg); }
+      }
+      @keyframes drift-b {
+        0%, 100% { transform: translate(0px, 0px) rotate(0deg); }
+        33% { transform: translate(-4px, 4px) rotate(-1.5deg); }
+        66% { transform: translate(3px, -3px) rotate(1deg); }
+      }
+      @keyframes drift-c {
+        0%, 100% { transform: translate(0px, 0px) rotate(0deg); }
+        33% { transform: translate(4px, 3px) rotate(1deg); }
+        66% { transform: translate(-3px, -4px) rotate(-1deg); }
+      }
+      @keyframes drift-d {
+        0%, 100% { transform: translate(0px, 0px) rotate(0deg); }
+        33% { transform: translate(-3px, -4px) rotate(-1deg); }
+        66% { transform: translate(4px, 3px) rotate(1.5deg); }
+      }
+
+      .float-a { animation: drift-a 6.5s ease-in-out infinite; }
+      .float-b { animation: drift-b 7.8s ease-in-out infinite 0.8s; }
+      .float-c { animation: drift-c 8.4s ease-in-out infinite 1.5s; }
+      .float-d { animation: drift-d 7.2s ease-in-out infinite 2.2s; }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="0" y="0" width="880" height="270" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Header -->
+  <g transform="translate(28, 24)">
+    <text x="0" y="0" class="term-green">&gt; TECH_MATRIX.sys // FLOATING MODULES</text>
+    <rect x="360" y="-12" width="170" height="16" rx="3" fill="#21262d" />
+    <text x="370" y="0" font-family="'SF Mono', monospace" font-size="9" font-weight="bold" fill="#39d353">● INTERACTIVE STACK</text>
+  </g>
+
+  <!-- ================= 4 BOXES WITH FLOATING ICONS ================= -->
+
+  <!-- BOX 1: CORE LANGUAGES -->
+  <g transform="translate(28, 48)">
+    <rect x="0" y="0" width="194" height="200" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
+    <text x="14" y="20" class="box-title">01 // LANGUAGES</text>
+
+    <!-- Floating Icon 1: Python (float-a) -->
+    <g transform="translate(30, 42)" class="float-a">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#3776ab" stroke-width="1" />
+      <path d="M 18 6 C 12 6 12 8 12 8 L 12 11 L 18 11 L 18 12 L 9 12 C 9 12 6 12 6 18 C 6 24 8 24 8 24 L 11 24 L 11 21 C 11 17 14 17 14 17 L 20 17 C 20 17 23 17 23 14 L 23 9 C 23 6 18 6 18 6 Z" fill="#3776ab" />
+      <path d="M 18 30 C 24 30 24 28 24 28 L 24 25 L 18 25 L 18 24 L 27 24 C 27 24 30 24 30 18 C 30 12 28 12 28 12 L 25 12 L 25 15 C 25 19 22 19 22 19 L 16 19 C 16 19 13 19 13 22 L 13 27 C 13 30 18 30 18 30 Z" fill="#ffd43b" />
+      <circle cx="15" cy="8.5" r="1.2" fill="#ffffff" />
+      <circle cx="21" cy="27.5" r="1.2" fill="#ffffff" />
+    </g>
+
+    <!-- Floating Icon 2: C++ (float-b) -->
+    <g transform="translate(118, 42)" class="float-b">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#00599c" stroke-width="1" />
+      <polygon points="18,10 26,14 26,22 18,26 10,22 10,14" fill="#00599c" />
+      <text x="18" y="21" font-family="'SF Mono', monospace" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle">C+</text>
+    </g>
+
+    <!-- Floating Icon 3: Java (float-c) -->
+    <g transform="translate(30, 96)" class="float-c">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#ed8b00" stroke-width="1" />
+      <path d="M 14 14 Q 18 10 22 14 Q 18 18 14 22" stroke="#ea2d2e" stroke-width="2" fill="none" />
+      <path d="M 18 12 Q 22 8 26 12 Q 22 16 18 20" stroke="#5382a1" stroke-width="2" fill="none" />
+      <ellipse cx="20" cy="25" rx="7" ry="2" fill="#ed8b00" />
+    </g>
+
+    <!-- Floating Icon 4: JavaScript (float-d) -->
+    <g transform="translate(118, 96)" class="float-d">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#f7df1e" />
+      <text x="18" y="24" font-family="'SF Mono', monospace" font-size="12" font-weight="900" fill="#000000" text-anchor="middle">JS</text>
+    </g>
+
+    <text x="14" y="160" class="tech-lbl">Python · Java · C++</text>
+    <text x="14" y="176" class="tech-sub">JavaScript · SQL · OOP</text>
+    <text x="14" y="190" class="tech-sub" fill="#39d353">⚡ 128+ Problem Solutions</text>
+  </g>
+
+  <!-- BOX 2: FRONTEND & WEB -->
+  <g transform="translate(238, 48)">
+    <rect x="0" y="0" width="194" height="200" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
+    <text x="14" y="20" class="box-title">02 // FRONTEND</text>
+
+    <!-- Floating React (float-b) -->
+    <g transform="translate(30, 42)" class="float-b">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#61dafb" stroke-width="1" />
+      <ellipse cx="18" cy="18" rx="11" ry="4" fill="none" stroke="#61dafb" stroke-width="1.3" transform="rotate(30 18 18)" />
+      <ellipse cx="18" cy="18" rx="11" ry="4" fill="none" stroke="#61dafb" stroke-width="1.3" transform="rotate(90 18 18)" />
+      <ellipse cx="18" cy="18" rx="11" ry="4" fill="none" stroke="#61dafb" stroke-width="1.3" transform="rotate(150 18 18)" />
+      <circle cx="18" cy="18" r="2.2" fill="#61dafb" />
+    </g>
+
+    <!-- Floating HTML5 (float-c) -->
+    <g transform="translate(118, 42)" class="float-c">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#e34f26" stroke-width="1" />
+      <polygon points="12,8 24,8 22,26 18,28 14,26" fill="#e34f26" />
+      <text x="18" y="22" font-family="'SF Mono', monospace" font-size="10" font-weight="900" fill="#ffffff" text-anchor="middle">5</text>
+    </g>
+
+    <!-- Floating CSS3 (float-d) -->
+    <g transform="translate(30, 96)" class="float-d">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#1572b6" stroke-width="1" />
+      <polygon points="12,8 24,8 22,26 18,28 14,26" fill="#1572b6" />
+      <text x="18" y="22" font-family="'SF Mono', monospace" font-size="10" font-weight="900" fill="#ffffff" text-anchor="middle">3</text>
+    </g>
+
+    <!-- Floating Responsive UI (float-a) -->
+    <g transform="translate(118, 96)" class="float-a">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#39d353" stroke-width="1" />
+      <rect x="8" y="10" width="20" height="14" rx="2" fill="none" stroke="#39d353" stroke-width="1.5" />
+      <line x1="14" y1="24" x2="22" y2="24" stroke="#39d353" stroke-width="1.5" />
+    </g>
+
+    <text x="14" y="160" class="tech-lbl">React · HTML5 · CSS3</text>
+    <text x="14" y="176" class="tech-sub">Component Architecture</text>
+    <text x="14" y="190" class="tech-sub" fill="#58a6ff">🎨 Responsive &amp; Modern UI</text>
+  </g>
+
+  <!-- BOX 3: BACKEND & APIS -->
+  <g transform="translate(448, 48)">
+    <rect x="0" y="0" width="194" height="200" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
+    <text x="14" y="20" class="box-title">03 // BACKEND &amp; DB</text>
+
+    <!-- Floating Node.js (float-c) -->
+    <g transform="translate(30, 42)" class="float-c">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#339933" stroke-width="1" />
+      <polygon points="18,10 26,15 26,23 18,27 10,23 10,15" fill="#339933" />
+      <text x="18" y="21" font-family="'SF Mono', monospace" font-size="9" font-weight="900" fill="#ffffff" text-anchor="middle">JS</text>
+    </g>
+
+    <!-- Floating FastAPI (float-d) -->
+    <g transform="translate(118, 42)" class="float-d">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#009688" stroke-width="1" />
+      <circle cx="18" cy="18" r="9" fill="#009688" />
+      <polygon points="19,11 14,19 18,19 17,25 22,17 18,17" fill="#ffffff" />
+    </g>
+
+    <!-- Floating MongoDB (float-a) -->
+    <g transform="translate(30, 96)" class="float-a">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#47a248" stroke-width="1" />
+      <path d="M 18 8 Q 23 16 18 28 Q 13 16 18 8 Z" fill="#47a248" />
+    </g>
+
+    <!-- Floating PostgreSQL (float-b) -->
+    <g transform="translate(118, 96)" class="float-b">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#336791" stroke-width="1" />
+      <ellipse cx="18" cy="18" rx="8" ry="9" fill="#336791" />
+      <circle cx="15" cy="16" r="1.5" fill="#ffffff" />
+      <circle cx="21" cy="16" r="1.5" fill="#ffffff" />
+    </g>
+
+    <text x="14" y="160" class="tech-lbl">Node · Express · FastAPI</text>
+    <text x="14" y="176" class="tech-sub">MongoDB · PostgreSQL · REST</text>
+    <text x="14" y="190" class="tech-sub" fill="#ff9f43">⚙️ Microservices &amp; Sockets</text>
+  </g>
+
+  <!-- BOX 4: AI/ML & DEVOPS -->
+  <g transform="translate(658, 48)">
+    <rect x="0" y="0" width="194" height="200" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
+    <text x="14" y="20" class="box-title">04 // AI/ML &amp; DEVOPS</text>
+
+    <!-- Floating PyTorch (float-d) -->
+    <g transform="translate(30, 42)" class="float-d">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#ee4c2c" stroke-width="1" />
+      <path d="M 18 10 Q 23 15 21 21 Q 19 25 15 23 Q 14 20 16 16 Z" fill="#ee4c2c" />
+      <circle cx="21" cy="11" r="1.5" fill="#ee4c2c" />
+    </g>
+
+    <!-- Floating Docker (float-a) -->
+    <g transform="translate(118, 42)" class="float-a">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#2496ed" stroke-width="1" />
+      <rect x="12" y="17" width="12" height="6" rx="1" fill="#2496ed" />
+      <rect x="14" y="13" width="3" height="3" fill="#2496ed" />
+      <rect x="18" y="13" width="3" height="3" fill="#2496ed" />
+      <path d="M 10 21 Q 18 26 26 21" stroke="#2496ed" stroke-width="1.5" fill="none" />
+    </g>
+
+    <!-- Floating Git (float-b) -->
+    <g transform="translate(30, 96)" class="float-b">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#f05032" stroke-width="1" />
+      <circle cx="14" cy="22" r="3" fill="#f05032" />
+      <circle cx="22" cy="14" r="3" fill="#f05032" />
+      <line x1="14" y1="22" x2="22" y2="14" stroke="#f05032" stroke-width="1.8" />
+    </g>
+
+    <!-- Floating Azure (float-c) -->
+    <g transform="translate(118, 96)" class="float-c">
+      <rect x="0" y="0" width="36" height="36" rx="4" fill="#21262d" stroke="#0078d4" stroke-width="1" />
+      <polygon points="12,24 19,10 24,20" fill="#0078d4" />
+      <polygon points="16,24 21,15 26,24" fill="#50e6ff" />
+    </g>
+
+    <text x="14" y="160" class="tech-lbl">PyTorch · Scikit · Pandas</text>
+    <text x="14" y="176" class="tech-sub">Docker · Git · Azure AI</text>
+    <text x="14" y="190" class="tech-sub" fill="#a55eea">🧠 RAG &amp; Inference Models</text>
+  </g>
+</svg>
