@@ -43,7 +43,7 @@
 
 <!-- LIVE GITHUB STREAK STATS (SOFT DUSTY ROSE THEME) -->
 <a href="https://github.com/jaspreetxkaur">
-  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=custom&background=161B22&stroke=30363D&ring=E8A0BF&fire=E8A0BF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E8A0BF&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
+  <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=custom&background=161B22&stroke=30363D&ring=F75C96&fire=FF2A85&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=F75C96&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
 </a>
 
 </div>
