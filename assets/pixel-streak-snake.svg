@@ -10,7 +10,7 @@
       }
       .mono { font-family: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; }
 
-      /* Multi-directional turning and slithering path across rows and columns */
+      /* Multi-directional turning path across the matrix */
       @keyframes snake-bend-path {
         0.0%   { transform: translate(58px, 0px); }
         19.51% { transform: translate(522px, 0px); }
@@ -27,13 +27,13 @@
         100.0% { transform: translate(58px, 0px); }
       }
 
-      /* Staggered segment delays for genuine turning/bending snake body */
-      .seg-0 { animation: snake-bend-path 14s linear infinite; animation-delay: 0s; }
-      .seg-1 { animation: snake-bend-path 14s linear infinite; animation-delay: -0.10s; }
-      .seg-2 { animation: snake-bend-path 14s linear infinite; animation-delay: -0.20s; }
-      .seg-3 { animation: snake-bend-path 14s linear infinite; animation-delay: -0.30s; }
-      .seg-4 { animation: snake-bend-path 14s linear infinite; animation-delay: -0.40s; }
-      .seg-5 { animation: snake-bend-path 14s linear infinite; animation-delay: -0.50s; }
+      /* Head leads IN FRONT (-0.50s ahead), Body segments follow behind! */
+      .seg-head { animation: snake-bend-path 14s linear infinite; animation-delay: -0.50s; }
+      .seg-1    { animation: snake-bend-path 14s linear infinite; animation-delay: -0.40s; }
+      .seg-2    { animation: snake-bend-path 14s linear infinite; animation-delay: -0.30s; }
+      .seg-3    { animation: snake-bend-path 14s linear infinite; animation-delay: -0.20s; }
+      .seg-4    { animation: snake-bend-path 14s linear infinite; animation-delay: -0.10s; }
+      .seg-tail { animation: snake-bend-path 14s linear infinite; animation-delay: 0.0s; }
 
       @keyframes pink-pulse {
         0%, 100% { opacity: 0.85; }
@@ -395,33 +395,33 @@
     <rect x="681.5" y="87.0" width="11" height="11" rx="2" fill="#f75c96" class="pink-spark" />
   </g>
 
-  <!-- Bending & Slithering Snake following curves through boxes -->
+  <!-- Head leads in front, Body & Tail follow behind around curves -->
   <g transform="translate(28, 44)">
-    <!-- Tail (seg-5) -->
-    <g class="seg-5">
+    <!-- Tail (trailing furthest behind) -->
+    <g class="seg-tail">
       <rect x="0" y="0" width="11" height="11" rx="2" fill="#501534" />
     </g>
-    <!-- Body Segment 4 (seg-4) -->
+    <!-- Body Segment 4 -->
     <g class="seg-4">
       <rect x="0" y="0" width="11" height="11" rx="2" fill="#8c245b" />
     </g>
-    <!-- Body Segment 3 (seg-3) -->
+    <!-- Body Segment 3 -->
     <g class="seg-3">
       <rect x="0" y="0" width="11" height="11" rx="2" fill="#cc3380" />
     </g>
-    <!-- Body Segment 2 (seg-2) -->
+    <!-- Body Segment 2 -->
     <g class="seg-2">
       <rect x="0" y="0" width="11" height="11" rx="2" fill="#ffa6c9" />
     </g>
-    <!-- Body Segment 1 (seg-1) -->
+    <!-- Body Segment 1 -->
     <g class="seg-1">
       <rect x="0" y="0" width="11" height="11" rx="2" fill="#f75c96" />
     </g>
-    <!-- Head (seg-0) -->
-    <g class="seg-0">
+    <!-- Head (Leading in front at all times!) -->
+    <g class="seg-head">
       <rect x="0" y="0" width="11" height="11" rx="3" fill="#ff2a85" stroke="#ffffff" stroke-width="0.8" />
-      <circle cx="8" cy="3.5" r="1.3" fill="#ffffff" />
-      <circle cx="8" cy="7.5" r="1.3" fill="#ffffff" />
+      <circle cx="5.5" cy="5.5" r="2.2" fill="#ffffff" />
+      <circle cx="5.5" cy="5.5" r="1.1" fill="#161b22" />
     </g>
   </g>
 
