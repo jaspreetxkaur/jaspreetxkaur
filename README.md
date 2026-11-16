@@ -5,7 +5,7 @@
 
 <br/><br/>
 
-<!-- ANIMATED TYPING HEADER -->
+<!-- ANIMATED TYPING BANNER -->
 <a href="https://github.com/jaspreetxkaur">
   <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=39D353&background=161B2200&center=true&vCenter=true&width=760&lines=FULL+STACK+DEVELOPER;EXPLORING+AI+%26+ML+SYSTEMS;BUILDING+UNILLM+%26+CAREERFORGE-AI;ALWAYS+PUSHING+COMMITS+%E2%9A%A1" alt="Typing Banner" />
 </a>
@@ -16,12 +16,12 @@
 
 <br/>
 
-<!-- RETRO DEVELOPER PASSPORT / ABOUT CARD (WITH FAST SCRATCH REVEAL AVATAR) -->
+<!-- RETRO DEVELOPER IDENTITY CARD (FAST SCRATCH REVEAL AVATAR) -->
 <img src="./assets/pixel-about.svg" alt="About Jaspreet Kaur" width="100%" />
 
 <br/><br/>
 
-<!-- RETRO ARCADE STATS HUD -->
+<!-- RETRO STATS HUD -->
 <img src="./assets/pixel-stats.svg" alt="Engineering Stats &amp; Telemetry" width="100%" />
 
 </div>
@@ -34,14 +34,14 @@
 
 <div align="center">
 
-<!-- FAST STREAK SNAKE (BABY PINK & DARK PINK) -->
+<!-- ANIMATED STREAK SNAKE IN BABY PINK & DARK PINK (MATRIX CRAWL) -->
 <a href="https://github.com/jaspreetxkaur">
   <img src="./assets/pixel-streak-snake.svg" alt="Fast Streak Snake — Baby Pink &amp; Dark Pink" width="100%" />
 </a>
 
 <br/><br/>
 
-<!-- LIVE GITHUB ACTIVITY STREAK GRAPH (BABY PINK & DARK PINK ACCENTS) -->
+<!-- HORIZONTAL LIVE GITHUB STREAK STATS -->
 <a href="https://github.com/jaspreetxkaur">
   <img src="https://streak-stats.demolab.com?user=jaspreetxkaur&theme=custom&background=161B22&stroke=D63384&ring=FF94C2&fire=FF1493&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF94C2&sideLabels=8B949E&dates=8B949E" alt="Live GitHub Streak Stats" width="100%" />
 </a>
@@ -52,24 +52,17 @@
 
 ---
 
-### `> FEATURED ARCHITECTURES & SCHEMATICS`
+### `> FEATURED REPOSITORIES`
 
 <div align="center">
-  <!-- INTERACTIVE ARCHITECTURE BLUEPRINTS (FLOWCHARTS & SCHEMATICS) -->
-  <img src="./assets/pixel-blueprints.svg" alt="Architecture Blueprints &amp; System Schematics" width="100%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <!-- VINTAGE FILE EXPLORER ARCHIVE FOR SUPPORTING REPOSITORIES -->
-  <img src="./assets/pixel-file-explorer.svg" alt="Vintage File Explorer Archive" width="100%" />
+  <!-- 2-COLUMN RETRO PIXEL PROJECT CARDS WITH CLICKABLE REPO LINKS -->
+  <img src="./assets/pixel-projects.svg" alt="Featured Repositories" width="100%" />
 </div>
 
 <br/>
 
 <details open>
-<summary><b>[VIEW ALL 8 VERIFIED REPOSITORY REPOSITORIES &amp; DEMOS]</b></summary>
+<summary><b>[VIEW ALL 8 VERIFIED REPOSITORIES &amp; DEMOS]</b></summary>
 <br/>
 
 | Repository | Domain &amp; Stack | Architecture &amp; Highlights | Action |
@@ -89,33 +82,12 @@
 
 ---
 
-### `> TECH STACK & FLOATING MODULES`
+### `> SKILLS & TOOLS`
 
 <div align="center">
-  <!-- FLOATING ICONS MATRIX (ICONS DRIFTING SLOWLY IN BOXES) -->
-  <img src="./assets/pixel-floating-stack.svg" alt="Technologies &amp; Floating Modules" width="100%" />
+  <!-- CLEAN PURE ICONS SHELF (NO CLUTTER, NO EMPTY BOXES) -->
+  <img src="./assets/tech-icons.svg" alt="Skills &amp; Technologies" width="100%" />
 </div>
-
-<br/>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" alt="Java" />&nbsp;
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />&nbsp;
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white" alt="C++" />&nbsp;
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" />&nbsp;
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" />&nbsp;
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />&nbsp;
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white" alt="MongoDB" />&nbsp;
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />&nbsp;
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=white" alt="Scikit-Learn" />&nbsp;
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white" alt="Azure" />&nbsp;
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" />&nbsp;
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />&nbsp;
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&amp;logo=postman&amp;logoColor=white" alt="Postman" />
-</p>
 
 <br/>
 
@@ -124,7 +96,7 @@
 ### `> GITHUB ACHIEVEMENTS & MILESTONES`
 
 <div align="center">
-  <!-- CLEAN METALLIC TROPHY SHELF (NO GREEN GRADIENT) -->
+  <!-- METALLIC BADGES SHELF -->
   <img src="./assets/github-achievements.svg" alt="GitHub Achievements &amp; Milestones" width="100%" />
 </div>
 
@@ -135,16 +107,11 @@
 ### `> CONNECT`
 
 <div align="center">
-  <img src="./assets/connect.svg" alt="Reach Out &amp; Connect" width="100%" />
+  <!-- CLEAN CONNECT TERMINAL -->
+  <a href="https://linkedin.com/in/jaspreet-kaur-aiml-engineer">
+    <img src="./assets/connect.svg" alt="Reach Out &amp; Connect" width="100%" />
+  </a>
 </div>
-
-<br/>
-
-<p align="center">
-  <a href="https://github.com/jaspreetxkaur"><kbd>&nbsp;🌐&nbsp; GitHub : @jaspreetxkaur &nbsp;</kbd></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/jaspreet-kaur-aiml-engineer"><kbd>&nbsp;💼&nbsp; LinkedIn : Jaspreet Kaur &nbsp;</kbd></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:jaspreet2775.beai24@chitkara.edu.in"><kbd>&nbsp;✉️&nbsp; Email : jaspreet2775.beai24@chitkara.edu.in &nbsp;</kbd></a>
-</p>
 
 <br/>
 
